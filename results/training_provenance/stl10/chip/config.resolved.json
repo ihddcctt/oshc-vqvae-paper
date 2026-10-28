@@ -1,0 +1,67 @@
+{
+  "_config_path": "configs/stl10_stagec_d64_k128.yaml",
+  "codebooks": {
+    "path": "artifacts/codebooks/lightwave_bank_d64_k128.npz"
+  },
+  "dataset": {
+    "download": false,
+    "name": "stl10",
+    "native_resolution": [
+      96,
+      96
+    ],
+    "root": "${TRAIN_DATA_ROOT}/STL10",
+    "test_split": "test",
+    "train_horizontal_flip_probability": 0.5,
+    "train_split": "unlabeled",
+    "validation_size": 5000,
+    "validation_split": "train"
+  },
+  "experiment": {
+    "name": "stl10_stagec_d64_k128_chip",
+    "seed": 20260907
+  },
+  "model": {
+    "base_codebook_size": 128,
+    "decoder_blocks_by_stage": [
+      3,
+      2,
+      2
+    ],
+    "decoder_blocks_per_stage": 1,
+    "imagenet_weights": "IMAGENET1K_V1",
+    "latent_dim": 64,
+    "loss_reference_dim": 64,
+    "normalize_latents": true,
+    "pretrained_encoder": true,
+    "quantizer_type": "seeded_residual",
+    "residual_codebook_size": 128
+  },
+  "training": {
+    "amp": true,
+    "batch_size": 64,
+    "checkpoint_selection": "correct_validation_mse",
+    "codebook_weight": 1.0,
+    "commitment_weight": 0.25,
+    "distributed_batch_size_mode": "per_rank",
+    "effective_global_batch_size_4gpu": 256,
+    "encoder_learning_rate_scale": 0.1,
+    "epochs": 80,
+    "learning_rate": 0.0003,
+    "num_workers": 8,
+    "perceptual_weight": 0.0,
+    "reconstruction_loss": "mse",
+    "residual_norm_weight": 0.0001,
+    "residual_only_weight": 0.0,
+    "state_assignment": "balanced_cyclic",
+    "weight_decay": 0.0001,
+    "wrong_state_offset": 1,
+    "wrong_state_weight": 0.0
+  },
+  "upgrade": {
+    "changed_variable": "native_image_resolution_and_dataset",
+    "source_config": "configs/visual_quality_stage_c_chip_k128_mse.yaml",
+    "stage": "STL10-Stage-C",
+    "stl10_base_commit": "767d6bade24cf31554b3695dd0371732e518a254"
+  }
+}

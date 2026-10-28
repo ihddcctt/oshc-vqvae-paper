@@ -1,0 +1,661 @@
+{
+  "cli": [
+    "src/lightwave_seeded_vqvae/cli/evaluate_final.py",
+    "--seeded-checkpoint",
+    "${RUN_ROOT}/chip/checkpoint_best.pt",
+    "--software-checkpoint",
+    "${RUN_ROOT}/software/checkpoint_best.pt",
+    "--codebook",
+    "artifacts/codebooks/lightwave_bank_d64_k128.npz",
+    "--manifest",
+    "data/optical/lightwave_bank_d64_k128.manifest.json",
+    "--output-dir",
+    "${RUN_ROOT}/evaluation",
+    "--dataset-root",
+    "${DATA_ROOT}",
+    "--device",
+    "cuda:1",
+    "--batch-size",
+    "128",
+    "--num-workers",
+    "0",
+    "--lpips",
+    "on",
+    "--bootstrap-seed",
+    "20260907",
+    "--bootstrap-replicates",
+    "2000"
+  ],
+  "compatibility": {
+    "matched_fields": [
+      "dataset.name",
+      "dataset.root",
+      "dataset.test_split",
+      "dataset.train_horizontal_flip_probability",
+      "dataset.train_split",
+      "dataset.validation_size",
+      "dataset.validation_split",
+      "experiment.seed",
+      "model.base_codebook_size",
+      "model.decoder_blocks_by_stage",
+      "model.decoder_blocks_per_stage",
+      "model.decoder_zero_init_extra_residual_blocks",
+      "model.encoder_backbone",
+      "model.imagenet_weights",
+      "model.latent_dim",
+      "model.loss_reference_dim",
+      "model.normalize_latents",
+      "model.pretrained_encoder",
+      "model.residual_codebook_size",
+      "training.perceptual_weight",
+      "training.reconstruction_loss"
+    ],
+    "mismatches": {}
+  },
+  "created_utc": "20260926T120854Z",
+  "dataset": {
+    "augmentation": "ToTensor only",
+    "expected_test_samples": 10000,
+    "name": "mnist",
+    "path_provenance": {
+      "effective_root": "${EVAL_DATA_ROOT}/MNIST",
+      "override_supplied": true,
+      "recorded_root": "${TRAIN_DATA_ROOT}/MNIST"
+    },
+    "processed_images_float32_sha256": "bc9f8f501f39b3ca61f899a2f402edf2024bde012b73223431b6bd735e47a165",
+    "processed_labels_int64_sha256": "2fd8de6bdb8d11780b4b96dc57847bcfe6953f7c32aa48bfcd8237c3b7847243",
+    "processed_sample_count": 10000,
+    "processed_sample_order_sha256": "15aee8a5d6da3901e730d66c5d09b719f0d9fe2bfb1495637b39f71bb9f9e6a1",
+    "processed_test_samples": 10000,
+    "root": "${EVAL_DATA_ROOT}/MNIST",
+    "shuffle": false,
+    "test_truncated": false
+  },
+  "git": {
+    "commit": "6c7c2c393c74c9de1b3b35ba2d9c8d32af8bb26b",
+    "dirty": true
+  },
+  "inputs": {
+    "codebook": {
+      "array_sha256": "89f7c290012917955f8a911f6df85fdca60c7b7e354061a78020e4e8e5cad199",
+      "file_sha256": "d855552467d8d3ce5de3dcbf14959efef1b856f0dae43f3dd09175976137e7f2",
+      "generator_version": "shake256-uniform-center-l2-f32le-v1",
+      "manifest_path": "data/optical/lightwave_bank_d64_k128.manifest.json",
+      "manifest_schema": "lightwave-seeded-vqvae-codebook-manifest-v1",
+      "manifest_sha256": "8edd716853d7022011add8eba1801710f76ff6c0b1350d805097178181bb966c",
+      "original_manifest_sha256": "9e7c65c5a0124edb194ae6efe4d5068e0631ab0ff542ece49bc9df4e3af6cd7d",
+      "original_source_workbook_sha256": {
+        "20260907_405nm.xlsx": "f1bebb18bd4a33f7c8e1115f6e3a8f3aacfb56f36e840243b2920978f5d9700d",
+        "20260907_640nm.xlsx": "109b998897ce71e0ef3bed0dfa43da58f7f42c248c3842a12a77a1ae5f3dd40b"
+      },
+      "path": "artifacts/codebooks/lightwave_bank_d64_k128.npz",
+      "shape": [
+        10,
+        128,
+        64
+      ],
+      "source_workbook_sha256": {
+        "20260907_405nm.xlsx": "45e7e39bf49ee23248d205437f06a88b5eafda946408e9a170ce0685a08b30ce",
+        "20260907_640nm.xlsx": "3245115f07532145d614154f9d9c5fa6e4db5908c831d23c06e77ca671179453"
+      },
+      "states": [
+        {
+          "canonical_record": {
+            "experiment_id": "20260907_ZHY",
+            "peaks": [
+              {
+                "extinction_db_1e4": 81501,
+                "peak": 1,
+                "wavelength_pm": 1548752
+              },
+              {
+                "extinction_db_1e4": 90964,
+                "peak": 2,
+                "wavelength_pm": 1549493
+              }
+            ],
+            "power_mw": 0,
+            "pump_nm": 405,
+            "schema": "lightwave-seeded-vqvae-state-v1"
+          },
+          "codebook_sha256": "2106502e030115b3dd970e05f2f03df08c7a8027807df23990e6d085df1bee87",
+          "index": 0,
+          "original_source_sha256": "f1bebb18bd4a33f7c8e1115f6e3a8f3aacfb56f36e840243b2920978f5d9700d",
+          "power_mw": 0,
+          "pump_nm": 405,
+          "seed_sha256": "630b8a8842f336a55438c0835de48fa74d3bdd83c4ccce34304a492a2a770dd4",
+          "source_file": "20260907_405nm.xlsx",
+          "source_row": 2,
+          "source_sha256": "45e7e39bf49ee23248d205437f06a88b5eafda946408e9a170ce0685a08b30ce",
+          "state_id": "405nm_0mW"
+        },
+        {
+          "canonical_record": {
+            "experiment_id": "20260907_ZHY",
+            "peaks": [
+              {
+                "extinction_db_1e4": 88232,
+                "peak": 1,
+                "wavelength_pm": 1548775
+              },
+              {
+                "extinction_db_1e4": 75386,
+                "peak": 2,
+                "wavelength_pm": 1549503
+              }
+            ],
+            "power_mw": 5,
+            "pump_nm": 405,
+            "schema": "lightwave-seeded-vqvae-state-v1"
+          },
+          "codebook_sha256": "6e5c453a1c2c10ae8de02ab1b2cdb2785791189ba01e36bafd96f8fa3ccb6818",
+          "index": 1,
+          "original_source_sha256": "f1bebb18bd4a33f7c8e1115f6e3a8f3aacfb56f36e840243b2920978f5d9700d",
+          "power_mw": 5,
+          "pump_nm": 405,
+          "seed_sha256": "e70ce710de719ede12dd3dfc5cba64661ba2dbf4ecae7d026068efd3a895e5ab",
+          "source_file": "20260907_405nm.xlsx",
+          "source_row": 3,
+          "source_sha256": "45e7e39bf49ee23248d205437f06a88b5eafda946408e9a170ce0685a08b30ce",
+          "state_id": "405nm_5mW"
+        },
+        {
+          "canonical_record": {
+            "experiment_id": "20260907_ZHY",
+            "peaks": [
+              {
+                "extinction_db_1e4": 91613,
+                "peak": 1,
+                "wavelength_pm": 1548835
+              },
+              {
+                "extinction_db_1e4": 63134,
+                "peak": 2,
+                "wavelength_pm": 1549563
+              }
+            ],
+            "power_mw": 10,
+            "pump_nm": 405,
+            "schema": "lightwave-seeded-vqvae-state-v1"
+          },
+          "codebook_sha256": "eb4e2b3d7e492735c9b95498baaa8140951f016b8008f42a5d971e37e3c7bd32",
+          "index": 2,
+          "original_source_sha256": "f1bebb18bd4a33f7c8e1115f6e3a8f3aacfb56f36e840243b2920978f5d9700d",
+          "power_mw": 10,
+          "pump_nm": 405,
+          "seed_sha256": "dfe9139e8f6f35c1dae663296c4e334f36c2673fe5dbfee4e43c097d0195107e",
+          "source_file": "20260907_405nm.xlsx",
+          "source_row": 4,
+          "source_sha256": "45e7e39bf49ee23248d205437f06a88b5eafda946408e9a170ce0685a08b30ce",
+          "state_id": "405nm_10mW"
+        },
+        {
+          "canonical_record": {
+            "experiment_id": "20260907_ZHY",
+            "peaks": [
+              {
+                "extinction_db_1e4": 82830,
+                "peak": 1,
+                "wavelength_pm": 1548906
+              },
+              {
+                "extinction_db_1e4": 68645,
+                "peak": 2,
+                "wavelength_pm": 1549640
+              }
+            ],
+            "power_mw": 15,
+            "pump_nm": 405,
+            "schema": "lightwave-seeded-vqvae-state-v1"
+          },
+          "codebook_sha256": "83178459c96bb053a6b06ddd64c7db786af7a2989eb969386d874a16b37b8495",
+          "index": 3,
+          "original_source_sha256": "f1bebb18bd4a33f7c8e1115f6e3a8f3aacfb56f36e840243b2920978f5d9700d",
+          "power_mw": 15,
+          "pump_nm": 405,
+          "seed_sha256": "dbd76edf48af6ee1c64d28c7add204d7b8fe34e8051f1384909a32dc331ab4a4",
+          "source_file": "20260907_405nm.xlsx",
+          "source_row": 5,
+          "source_sha256": "45e7e39bf49ee23248d205437f06a88b5eafda946408e9a170ce0685a08b30ce",
+          "state_id": "405nm_15mW"
+        },
+        {
+          "canonical_record": {
+            "experiment_id": "20260907_ZHY",
+            "peaks": [
+              {
+                "extinction_db_1e4": 80364,
+                "peak": 1,
+                "wavelength_pm": 1549009
+              },
+              {
+                "extinction_db_1e4": 73616,
+                "peak": 2,
+                "wavelength_pm": 1549709
+              }
+            ],
+            "power_mw": 20,
+            "pump_nm": 405,
+            "schema": "lightwave-seeded-vqvae-state-v1"
+          },
+          "codebook_sha256": "0879d0d51cfea0ab92846dc20648b1b926245f31ec7bfb0ff38471ee69b86b95",
+          "index": 4,
+          "original_source_sha256": "f1bebb18bd4a33f7c8e1115f6e3a8f3aacfb56f36e840243b2920978f5d9700d",
+          "power_mw": 20,
+          "pump_nm": 405,
+          "seed_sha256": "12dfee3e911dad5daf7346f12292f1205f5bbe0ccb61b1ed3831e9de3ed6edf2",
+          "source_file": "20260907_405nm.xlsx",
+          "source_row": 6,
+          "source_sha256": "45e7e39bf49ee23248d205437f06a88b5eafda946408e9a170ce0685a08b30ce",
+          "state_id": "405nm_20mW"
+        },
+        {
+          "canonical_record": {
+            "experiment_id": "20260907_ZHY",
+            "peaks": [
+              {
+                "extinction_db_1e4": 90548,
+                "peak": 1,
+                "wavelength_pm": 1548991
+              },
+              {
+                "extinction_db_1e4": 86424,
+                "peak": 2,
+                "wavelength_pm": 1549690
+              }
+            ],
+            "power_mw": 0,
+            "pump_nm": 640,
+            "schema": "lightwave-seeded-vqvae-state-v1"
+          },
+          "codebook_sha256": "3de3c844779b9c54b8020cdba0850465f8afd0f624b54523fc14bbeca9b3d550",
+          "index": 5,
+          "original_source_sha256": "109b998897ce71e0ef3bed0dfa43da58f7f42c248c3842a12a77a1ae5f3dd40b",
+          "power_mw": 0,
+          "pump_nm": 640,
+          "seed_sha256": "6166c23cf167fc520dcd980e646032737158cb812941a248a61b2d4861db8fd8",
+          "source_file": "20260907_640nm.xlsx",
+          "source_row": 2,
+          "source_sha256": "3245115f07532145d614154f9d9c5fa6e4db5908c831d23c06e77ca671179453",
+          "state_id": "640nm_0mW"
+        },
+        {
+          "canonical_record": {
+            "experiment_id": "20260907_ZHY",
+            "peaks": [
+              {
+                "extinction_db_1e4": 102331,
+                "peak": 1,
+                "wavelength_pm": 1548896
+              },
+              {
+                "extinction_db_1e4": 75486,
+                "peak": 2,
+                "wavelength_pm": 1549620
+              }
+            ],
+            "power_mw": 5,
+            "pump_nm": 640,
+            "schema": "lightwave-seeded-vqvae-state-v1"
+          },
+          "codebook_sha256": "6b9d9b60d9d221b6da72712c452b010b8c6c3f172a22ec651a1f00a1611227d5",
+          "index": 6,
+          "original_source_sha256": "109b998897ce71e0ef3bed0dfa43da58f7f42c248c3842a12a77a1ae5f3dd40b",
+          "power_mw": 5,
+          "pump_nm": 640,
+          "seed_sha256": "038f8924ffe035bb2f63ce0b2b14d5e749c5beb27cc95ff6bbefd1b46b5e6459",
+          "source_file": "20260907_640nm.xlsx",
+          "source_row": 3,
+          "source_sha256": "3245115f07532145d614154f9d9c5fa6e4db5908c831d23c06e77ca671179453",
+          "state_id": "640nm_5mW"
+        },
+        {
+          "canonical_record": {
+            "experiment_id": "20260907_ZHY",
+            "peaks": [
+              {
+                "extinction_db_1e4": 112275,
+                "peak": 1,
+                "wavelength_pm": 1548824
+              },
+              {
+                "extinction_db_1e4": 95208,
+                "peak": 2,
+                "wavelength_pm": 1549552
+              }
+            ],
+            "power_mw": 10,
+            "pump_nm": 640,
+            "schema": "lightwave-seeded-vqvae-state-v1"
+          },
+          "codebook_sha256": "2fdf8150007c4346b22c85c77e6a0ebe656be87c131b18b352a2cf44036612b5",
+          "index": 7,
+          "original_source_sha256": "109b998897ce71e0ef3bed0dfa43da58f7f42c248c3842a12a77a1ae5f3dd40b",
+          "power_mw": 10,
+          "pump_nm": 640,
+          "seed_sha256": "22867c2cee55f09c46583ee8009e77a4b9b57a10cc884f04721280e7ddc31027",
+          "source_file": "20260907_640nm.xlsx",
+          "source_row": 4,
+          "source_sha256": "3245115f07532145d614154f9d9c5fa6e4db5908c831d23c06e77ca671179453",
+          "state_id": "640nm_10mW"
+        },
+        {
+          "canonical_record": {
+            "experiment_id": "20260907_ZHY",
+            "peaks": [
+              {
+                "extinction_db_1e4": 94762,
+                "peak": 1,
+                "wavelength_pm": 1548779
+              },
+              {
+                "extinction_db_1e4": 86428,
+                "peak": 2,
+                "wavelength_pm": 1549484
+              }
+            ],
+            "power_mw": 15,
+            "pump_nm": 640,
+            "schema": "lightwave-seeded-vqvae-state-v1"
+          },
+          "codebook_sha256": "a79ae4ef9218abb66bca3fcf902252e3eb0f1c7280f4c0227c8b8ba8dea96b07",
+          "index": 8,
+          "original_source_sha256": "109b998897ce71e0ef3bed0dfa43da58f7f42c248c3842a12a77a1ae5f3dd40b",
+          "power_mw": 15,
+          "pump_nm": 640,
+          "seed_sha256": "b4d448eb5a5328bbd715fb3fb681ee548a3802c1bb8f53b66423b281af746a29",
+          "source_file": "20260907_640nm.xlsx",
+          "source_row": 5,
+          "source_sha256": "3245115f07532145d614154f9d9c5fa6e4db5908c831d23c06e77ca671179453",
+          "state_id": "640nm_15mW"
+        },
+        {
+          "canonical_record": {
+            "experiment_id": "20260907_ZHY",
+            "peaks": [
+              {
+                "extinction_db_1e4": 101964,
+                "peak": 1,
+                "wavelength_pm": 1548759
+              },
+              {
+                "extinction_db_1e4": 89882,
+                "peak": 2,
+                "wavelength_pm": 1549480
+              }
+            ],
+            "power_mw": 20,
+            "pump_nm": 640,
+            "schema": "lightwave-seeded-vqvae-state-v1"
+          },
+          "codebook_sha256": "aa941810206bf99c86c9034cd2b1e0ccd77c0bc938362255fc9a606f339ea96b",
+          "index": 9,
+          "original_source_sha256": "109b998897ce71e0ef3bed0dfa43da58f7f42c248c3842a12a77a1ae5f3dd40b",
+          "power_mw": 20,
+          "pump_nm": 640,
+          "seed_sha256": "6a8847a663eaf8c431116993004cebf6c3e94cf5a7048d5accb9b528efb93d04",
+          "source_file": "20260907_640nm.xlsx",
+          "source_row": 6,
+          "source_sha256": "3245115f07532145d614154f9d9c5fa6e4db5908c831d23c06e77ca671179453",
+          "state_id": "640nm_20mW"
+        }
+      ]
+    },
+    "imagenet_weights": {
+      "cached_weight_file": null,
+      "cached_weight_file_sha256": null,
+      "pretrained_encoder": true,
+      "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "weight_enum": "IMAGENET1K_V1"
+    },
+    "seeded_checkpoint": {
+      "epoch": 78,
+      "path": "PRIVATE_CHECKPOINTS/mnist/mnist_chip.pt",
+      "resolved_config_sha256": "fd87fe6f285371ac7c56694febcc93a86330b2da5578809a81cf03ea104efc99",
+      "selection": null,
+      "sha256": "50e82b017e8dc2ec8e2cc59bb8474b18354b6e9031fb057b42dbae237c3ce4ae"
+    },
+    "software_checkpoint": {
+      "epoch": 80,
+      "path": "PRIVATE_CHECKPOINTS/mnist/mnist_software.pt",
+      "resolved_config_sha256": "be38d1dd0c3f3121399ada656bacbf7a67b557c0d3475191e1c73ba2f925ce93",
+      "selection": null,
+      "sha256": "caddd9e4eecafbcb558778d6b6375414d7ef53d4b0926614671b78804ae23c08"
+    }
+  },
+  "metrics": {
+    "bootstrap": {
+      "metric_interval_reduction": "average supplied states/state pairs within each image, then resample test-image indices",
+      "replicates": 2000,
+      "sampling_unit": "test image",
+      "seed": 20260907,
+      "wrong_vs_correct_reduction": "mean correct-state and wrong-state-pair metrics within each image before resampling images",
+      "wrong_vs_correct_seed": 20260908
+    },
+    "lpips": {
+      "dataset": "mnist",
+      "enabled": true,
+      "grayscale_policy": "repeat to three channels; resize to 32x32 if needed",
+      "input_mapping": "x_lpips = 2*x_[0,1] - 1",
+      "metric": "LPIPS",
+      "network": "alex",
+      "package_version": "0.1.4",
+      "policy": "on",
+      "spatial": false,
+      "version": "0.1"
+    },
+    "mse": "pooled squared-error sum divided by pooled pixel count",
+    "psnr": "10*log10(1/MSE); PSNR values are never averaged",
+    "rmse": "sqrt(pooled MSE); per-observation RMSE values are never averaged",
+    "ssim": {
+      "aggregation": "mean of per-image SSIM values",
+      "data_range": 1.0,
+      "denominator_floor": "dtype tiny (underflow protection), not dtype epsilon",
+      "implementation": "torch-gaussian-valid-v2",
+      "k1": 0.01,
+      "k2": 0.03,
+      "sample_covariance": false,
+      "sigma": 1.5,
+      "window_size": 11
+    }
+  },
+  "models": {
+    "seeded": {
+      "nominal_index_rate": {
+        "base_index_bits_per_token": 7,
+        "definition": "index payload only; ceil(log2(K_B))+ceil(log2(K_R)) bits per latent position, compared with uncompressed 8-bit-per-channel input",
+        "latent_positions_per_image": 49,
+        "latent_spatial_shape": [
+          7,
+          7
+        ],
+        "nominal_index_bits_per_image": 686,
+        "nominal_index_bits_per_spatial_pixel": 0.875,
+        "nominal_raw_to_index_compression_ratio": 9.142857142857142,
+        "raw_image_shape_chw": [
+          1,
+          28,
+          28
+        ],
+        "raw_reference_bits_per_channel": 8,
+        "raw_reference_bits_per_image": 6272,
+        "raw_reference_bits_per_pixel": 8,
+        "residual_index_bits_per_token": 7,
+        "total_index_bits_per_token": 14
+      },
+      "parameters": {
+        "definition": "number of torch.nn.Parameter elements; buffers are excluded",
+        "non_trainable_parameters": 0,
+        "total_parameters": 7465473,
+        "trainable_parameters": 7465473
+      }
+    },
+    "software": {
+      "nominal_index_rate": {
+        "base_index_bits_per_token": 7,
+        "definition": "index payload only; ceil(log2(K_B))+ceil(log2(K_R)) bits per latent position, compared with uncompressed 8-bit-per-channel input",
+        "latent_positions_per_image": 49,
+        "latent_spatial_shape": [
+          7,
+          7
+        ],
+        "nominal_index_bits_per_image": 686,
+        "nominal_index_bits_per_spatial_pixel": 0.875,
+        "nominal_raw_to_index_compression_ratio": 9.142857142857142,
+        "raw_image_shape_chw": [
+          1,
+          28,
+          28
+        ],
+        "raw_reference_bits_per_channel": 8,
+        "raw_reference_bits_per_image": 6272,
+        "raw_reference_bits_per_pixel": 8,
+        "residual_index_bits_per_token": 7,
+        "total_index_bits_per_token": 14
+      },
+      "parameters": {
+        "definition": "number of torch.nn.Parameter elements; buffers are excluded",
+        "non_trainable_parameters": 0,
+        "total_parameters": 7473665,
+        "trainable_parameters": 7473665
+      }
+    }
+  },
+  "outputs": {
+    "base_codebook_state_distances.csv": "6d659fc1044d0cc7d74a4c5d93e9abd6e6d4f052936334bc954b4ae00e501e43",
+    "cross_state_matrix.csv": "ede120accd60ed72bbf5594ee9f63222d8cbfde533e8d969e830322689097786",
+    "metric_confidence_intervals.csv": "bdd73ae5580a0a8f47b981c4ce1296812dc33273bed64a162c93a8fc6df97b83",
+    "per_image_metrics.npz": "3d123707ef4bcd1f8095c3468376a59c4587bffdf028f91a58e2d63befe2b92b",
+    "physical_mismatch_pairs.csv": "1377cb441f2df97c6ba42fee5723379f3eef11caf1378349d4825c189c8fec3a",
+    "physical_mismatch_summary.csv": "6847cd978406e379a1f64b8b8de73834c7aac9351316cd430d0390cd70d1502a",
+    "reconstruction_summary.json": "37c93592191c81ca3f9eb8c7f9af1e1d0e8f4fe318c3f9368363a17fa526c86f",
+    "schedule_results.csv": "87c3b2af391ca8c9d94b34f484082c1334a30a0329be9723ff6d3d26ef311e03",
+    "usage_by_state.csv": "2752e7a63b756064750cdadf33b4b8496bfe240f68175ea3a890da96a0dea3b4"
+  },
+  "physical_mismatch_grouping": {
+    "definitions": {
+      "all_cross_pump": "marginal group; union of cross_pump_same_power and cross_pump_wrong_power",
+      "all_wrong_power": "marginal group; union of same_pump_wrong_power and cross_pump_wrong_power",
+      "cross_pump_same_power": "pump differs and power is unchanged",
+      "cross_pump_wrong_power": "both pump and power differ",
+      "ordered_pair": "sender and receiver roles are directional",
+      "same_pump_wrong_power": "pump is unchanged and power differs"
+    },
+    "exclusive_pair_counts": {
+      "cross_pump_same_power": 10,
+      "cross_pump_wrong_power": 40,
+      "same_pump_wrong_power": 40
+    },
+    "marginal_pair_counts": {
+      "all_cross_pump": 50,
+      "all_wrong_power": 80
+    },
+    "ordered_wrong_pair_count": 90
+  },
+  "runtime": {
+    "amp": false,
+    "batch_size": 128,
+    "cuda": "12.1",
+    "cudnn": 8801,
+    "device": "cuda:1",
+    "device_name": "NVIDIA GeForce RTX 2080 Ti",
+    "evaluation_dtype": "float32 model inference; float64 metric aggregation",
+    "model_eval_mode": true,
+    "num_workers": 0,
+    "numpy": "1.26.4",
+    "python": "3.10.6",
+    "smoke_max_batches": null,
+    "torch": "2.1.2+cu121",
+    "torchvision": "0.16.2+cu121"
+  },
+  "schedules": {
+    "algorithm": "numpy-pcg64-blockwise-permutation-v1",
+    "fixed_sha256": "0a76227df804cf171a22e86cb82ea6d868638892c8293d4d3dc2df71f0231851",
+    "fixed_state_counts": [
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000
+    ],
+    "pseudorandom_sha256": "36cb4111d6f3a4106ac34166ebcbf49748628cdd8f14aad9dc9a3531af6a959c",
+    "pseudorandom_state_counts": [
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000
+    ],
+    "receiver_shift_definition": "receiver[t] = sender_schedule[(t + shift) mod N]",
+    "schedule_seed": 20260907
+  },
+  "schema": "lightwave-seeded-vqvae-final-evaluation-v2",
+  "scope": "final",
+  "state_order": [
+    {
+      "index": 0,
+      "state_id": "405nm_0mW"
+    },
+    {
+      "index": 1,
+      "state_id": "405nm_5mW"
+    },
+    {
+      "index": 2,
+      "state_id": "405nm_10mW"
+    },
+    {
+      "index": 3,
+      "state_id": "405nm_15mW"
+    },
+    {
+      "index": 4,
+      "state_id": "405nm_20mW"
+    },
+    {
+      "index": 5,
+      "state_id": "640nm_0mW"
+    },
+    {
+      "index": 6,
+      "state_id": "640nm_5mW"
+    },
+    {
+      "index": 7,
+      "state_id": "640nm_10mW"
+    },
+    {
+      "index": 8,
+      "state_id": "640nm_15mW"
+    },
+    {
+      "index": 9,
+      "state_id": "640nm_20mW"
+    }
+  ],
+  "wrong_state_training": {
+    "explicit_wrong_state_training": false,
+    "selection_monitored_offset": 1,
+    "selection_unmonitored_offsets": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "wrong_state_weight": 0.0
+  }
+}

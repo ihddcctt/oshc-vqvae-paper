@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lightwave-seeded-vqvae"
+version = "1.0.0"
+description = "Optical-state-seeded hybrid-codebook VQ-VAE publication implementation"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24,<2",
+  "openpyxl>=3.1,<4",
+  "PyYAML>=6,<7",
+  "torch>=2.1,<2.2",
+  "torchvision>=0.16,<0.17",
+  "tqdm>=4.66,<5",
+  "scikit-image>=0.21,<1",
+  "matplotlib>=3.7,<4",
+  "cryptography>=41,<44",
+  "lpips>=0.1.4,<0.2",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4,<9", "pytest-cov>=4.1,<6"]
+
+[project.scripts]
+lightwave-build-codebooks = "lightwave_seeded_vqvae.cli.build_codebooks:main"
+lightwave-train = "lightwave_seeded_vqvae.cli.train:main"
+lightwave-evaluate-cross-state = "lightwave_seeded_vqvae.cli.evaluate_cross_state:main"
+lightwave-evaluate-final = "lightwave_seeded_vqvae.cli.evaluate_final:main"
+lightwave-evaluate-aes-gcm = "lightwave_seeded_vqvae.cli.evaluate_aes_gcm_ablation:main"
+lightwave-evaluate-aes-gcm-k128 = "lightwave_seeded_vqvae.cli.evaluate_aes_gcm_k128:main"
+lightwave-plot-final-evaluation = "lightwave_seeded_vqvae.cli.plot_final_evaluation:main"
+lightwave-plot-reconstruction-examples = "lightwave_seeded_vqvae.cli.plot_reconstruction_examples:main"
+lightwave-plot-cifar-natural-examples = "lightwave_seeded_vqvae.cli.plot_cifar_natural_examples:main"
+lightwave-build-stl10-sample-registry = "lightwave_seeded_vqvae.cli.build_stl10_sample_registry:main"
+lightwave-plot-stl10-stagec = "lightwave_seeded_vqvae.cli.plot_stl10_stagec:main"
+lightwave-build-mnist-stagec-sample-registry = "lightwave_seeded_vqvae.cli.build_mnist_stagec_sample_registry:main"
+lightwave-plot-mnist-stagec = "lightwave_seeded_vqvae.cli.plot_mnist_stagec:main"
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

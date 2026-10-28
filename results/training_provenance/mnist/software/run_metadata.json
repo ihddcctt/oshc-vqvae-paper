@@ -1,0 +1,71 @@
+{
+  "base_bank_array_sha256": null,
+  "base_bank_shape": null,
+  "checkpoint_selection": "correct_validation_mse",
+  "cli_overrides": {
+    "epochs": null,
+    "max_train_batches": null,
+    "max_val_batches": null
+  },
+  "completed_utc": "20260915T073016Z",
+  "created_utc": "20260915T071646Z",
+  "cuda": "12.1",
+  "data_split": {
+    "augmentation": {
+      "test_random_augmentation": false,
+      "train_horizontal_flip_probability": 0.0,
+      "validation_random_augmentation": false
+    },
+    "index_hash_scope": "source-local ordered int64-little-endian indices",
+    "split_seed": 20260907,
+    "test_indices_sha256": "9e1c19b3fdc185411bd1a987deb6a9fda2531116aac060a84c4d878854d1c099",
+    "test_samples_held_out": 10000,
+    "test_split": null,
+    "train_indices_sha256": "2e4e60aa83c2c47c70545dcae3af708f2f400c68935425196e3b9af235674f60",
+    "train_samples": 55000,
+    "train_split": null,
+    "validation_indices_sha256": "a3fb783bf571e9e5cf96cb36a4357b4131dea0c80763ddaeff728befe15f4336",
+    "validation_samples": 5000,
+    "validation_split": null
+  },
+  "decoder_initialization": {
+    "scope": "blocks_after_the_first_block_in_each_decoder_stage",
+    "zero_init_extra_residual_blocks": true
+  },
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 4090",
+  "distributed": {
+    "backend": null,
+    "batch_size_mode": "per_rank",
+    "configured_batch_size": 256,
+    "effective_global_batch_size": 256,
+    "enabled": false,
+    "local_rank": 0,
+    "per_rank_batch_size": 256,
+    "rank": 0,
+    "train_metric_reduction": "global_all_rank_batch_mean",
+    "validation_and_io_rank": 0,
+    "world_size": 1
+  },
+  "git": {
+    "commit": "84193c624f53435f541f5e852a236b0d2cf3c8c6",
+    "dirty": false
+  },
+  "parameter_counts": {
+    "decoder_total": 4666881,
+    "encoder_total": 2790400,
+    "quantizer_total": 16384,
+    "total": 7473665,
+    "trainable": 7473665
+  },
+  "python": "3.10.14",
+  "quantizer_type": "trainable_residual",
+  "reconstruction_loss": {
+    "perceptual_metric": null,
+    "perceptual_weight": 0.0,
+    "type": "mse"
+  },
+  "runtime_file": "training_runtime.json",
+  "torch": "2.1.0",
+  "torchvision": "0.16.0"
+}

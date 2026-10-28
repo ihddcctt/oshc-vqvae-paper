@@ -1,0 +1,67 @@
+{
+  "base_bank_array_sha256": null,
+  "base_bank_shape": null,
+  "checkpoint_selection": "correct_validation_mse",
+  "cli_overrides": {
+    "epochs": null,
+    "max_train_batches": null,
+    "max_val_batches": null
+  },
+  "completed_utc": "20260908T153922Z",
+  "created_utc": "20260908T144518Z",
+  "cuda": "12.1",
+  "data_split": {
+    "augmentation": {
+      "test_random_augmentation": false,
+      "train_horizontal_flip_probability": 0.5,
+      "validation_random_augmentation": false
+    },
+    "index_hash_scope": "source-local ordered int64-little-endian indices",
+    "split_seed": 20260907,
+    "test_indices_sha256": "082118925cd4cdd579d93cdc95a2b7002b11a2aa8c4cf6428690eb4db7cd9f54",
+    "test_samples_held_out": 8000,
+    "test_split": "test",
+    "train_indices_sha256": "baa5f49fbad78af4964d9ec7eaf2d6327b2d2ca1f4dcf54e2394dfff2e36d58e",
+    "train_samples": 100000,
+    "train_split": "unlabeled",
+    "validation_indices_sha256": "a3d44437f284b46e5d827df6101e63efe16f752040ad67db809c061bc367bde5",
+    "validation_samples": 5000,
+    "validation_split": "train"
+  },
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 4090",
+  "distributed": {
+    "backend": "nccl",
+    "batch_size_mode": "per_rank",
+    "configured_batch_size": 64,
+    "effective_global_batch_size": 256,
+    "enabled": true,
+    "local_rank": 0,
+    "per_rank_batch_size": 64,
+    "rank": 0,
+    "train_metric_reduction": "global_all_rank_batch_mean",
+    "validation_and_io_rank": 0,
+    "world_size": 4
+  },
+  "git": {
+    "commit": "87f5b364aeb9aeab56ce986d31b779d280140a78",
+    "dirty": false
+  },
+  "parameter_counts": {
+    "decoder_total": 4668035,
+    "encoder_total": 2791552,
+    "quantizer_total": 16384,
+    "total": 7475971,
+    "trainable": 7475971
+  },
+  "python": "3.10.14",
+  "quantizer_type": "trainable_residual",
+  "reconstruction_loss": {
+    "perceptual_metric": null,
+    "perceptual_weight": 0.0,
+    "type": "mse"
+  },
+  "runtime_file": "training_runtime.json",
+  "torch": "2.1.0",
+  "torchvision": "0.16.0"
+}

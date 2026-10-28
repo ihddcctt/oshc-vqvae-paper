@@ -1,0 +1,90 @@
+{
+  "errors": [],
+  "legacy_audit_mode": false,
+  "ok": true,
+  "results": [
+    {
+      "array_count": 17,
+      "branches": {
+        "correct": {
+          "lpips": 0.0026368139755690934,
+          "mse": 0.0017543977591626026,
+          "observations": 100000,
+          "rmse": 0.04188553162086644,
+          "ssim": 0.9794022520917655
+        },
+        "software": {
+          "lpips": 0.0010166139939025015,
+          "mse": 0.0008803027541278424,
+          "observations": 10000,
+          "rmse": 0.02966989642934135,
+          "ssim": 0.9900685038864613
+        },
+        "wrong": {
+          "lpips": 0.0414265993502308,
+          "mse": 0.03261143325026438,
+          "observations": 900000,
+          "rmse": 0.18058635953544327,
+          "ssim": 0.6877212893354837
+        }
+      },
+      "correct_minus_wrong_ssim": 0.29168096275628175,
+      "dataset": "mnist",
+      "images": 10000,
+      "ordered_wrong_pairs": 90,
+      "publication_metric_version": true,
+      "sender_states": 10,
+      "source_sha256": {
+        "evaluation_manifest.json": "ac61cde4922a343904070175a9d63dc14fb3eee8021c0292bdc59a38254cb1d1",
+        "per_image_metrics.npz": "3d123707ef4bcd1f8095c3468376a59c4587bffdf028f91a58e2d63befe2b92b",
+        "reconstruction_summary.json": "37c93592191c81ca3f9eb8c7f9af1e1d0e8f4fe318c3f9368363a17fa526c86f"
+      },
+      "ssim_implementation": "torch-gaussian-valid-v2",
+      "summary_verified": true,
+      "wrong_minus_correct_lpips": 0.038789785374661705,
+      "wrong_to_correct_mse_ratio": 18.58839198804623
+    },
+    {
+      "array_count": 17,
+      "branches": {
+        "correct": {
+          "lpips": 0.14159571991369593,
+          "mse": 0.003112941932598915,
+          "observations": 80000,
+          "rmse": 0.05579374456512948,
+          "ssim": 0.8123399613969028
+        },
+        "software": {
+          "lpips": 0.06375255602732068,
+          "mse": 0.0018560560142204848,
+          "observations": 8000,
+          "rmse": 0.043081968550897076,
+          "ssim": 0.8899377451390028
+        },
+        "wrong": {
+          "lpips": 0.4316352540905691,
+          "mse": 0.033716258883394766,
+          "observations": 720000,
+          "rmse": 0.18361987605756291,
+          "ssim": 0.37083903276100755
+        }
+      },
+      "correct_minus_wrong_ssim": 0.44150092863589524,
+      "dataset": "stl10",
+      "images": 8000,
+      "ordered_wrong_pairs": 90,
+      "publication_metric_version": true,
+      "sender_states": 10,
+      "source_sha256": {
+        "evaluation_manifest.json": "50f3b43fa0253608f3f88680097efccff3eec514d08b08b6c6e8067898a5f153",
+        "per_image_metrics.npz": "181d0316d674ccdbb08776d751de10890118d64b99572dd5620b339004558e49",
+        "reconstruction_summary.json": "ef92ee78a41b54bcf849c93819817e84bbd820c0e95726d7bb924cf4afe0800c"
+      },
+      "ssim_implementation": "torch-gaussian-valid-v2",
+      "summary_verified": true,
+      "wrong_minus_correct_lpips": 0.2900395341768731,
+      "wrong_to_correct_mse_ratio": 10.830995120826405
+    }
+  ],
+  "schema": "oshc-vqvae-array-summary-v1"
+}

@@ -1,0 +1,48 @@
+experiment:
+  name: mnist_stagec_d64_k128_chip
+  seed: 20260907
+dataset:
+  name: mnist
+  root: datasets
+  download: false
+  validation_size: 5000
+  native_resolution: [28, 28]
+model:
+  quantizer_type: seeded_residual
+  latent_dim: 64
+  base_codebook_size: 128
+  residual_codebook_size: 128
+  pretrained_encoder: true
+  imagenet_weights: IMAGENET1K_V1
+  normalize_latents: true
+  loss_reference_dim: 64
+  decoder_blocks_per_stage: 1
+  decoder_blocks_by_stage: [3, 2, 2]
+  decoder_zero_init_extra_residual_blocks: true
+training:
+  epochs: 80
+  batch_size: 256
+  effective_global_batch_size: 256
+  distributed_batch_size_mode: per_rank
+  checkpoint_selection: correct_validation_mse
+  num_workers: 8
+  learning_rate: 0.0003
+  encoder_learning_rate_scale: 0.1
+  weight_decay: 0.0001
+  reconstruction_loss: mse
+  perceptual_weight: 0.0
+  commitment_weight: 0.25
+  codebook_weight: 1.0
+  residual_norm_weight: 0.0001
+  wrong_state_weight: 0.0
+  wrong_state_offset: 1
+  residual_only_weight: 0.0
+  amp: true
+  state_assignment: balanced_cyclic
+codebooks:
+  path: artifacts/codebooks/lightwave_bank_d64_k128.npz
+upgrade:
+  stage: MNIST-Stage-C-comparison
+  changed_variable: dataset_native_factor4_geometry_and_extra_decoder_block_initialization
+  source_config: configs/stl10_stagec_d64_k128.yaml
+  comparison_scope: current_architecture_retrained_without_cross_dataset_weight_transfer

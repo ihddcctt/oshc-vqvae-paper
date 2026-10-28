@@ -1,0 +1,423 @@
+{
+  "classes": [
+    {
+      "candidate_count": 980,
+      "class_id": 0,
+      "class_name": "0",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0015874609089223668,
+          "quantile": 0.25,
+          "sample_id": 5974,
+          "selected_sample_correct_mean_mse": 0.0015875019831582903
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.001955556101165712,
+          "quantile": 0.5,
+          "sample_id": 4327,
+          "selected_sample_correct_mean_mse": 0.0019549542339518666
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.002456271430128254,
+          "quantile": 0.75,
+          "sample_id": 9273,
+          "selected_sample_correct_mean_mse": 0.002454804512672126
+        }
+      }
+    },
+    {
+      "candidate_count": 1135,
+      "class_id": 1,
+      "class_name": "1",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0004772670086822473,
+          "quantile": 0.25,
+          "sample_id": 9682,
+          "selected_sample_correct_mean_mse": 0.0004774075612658635
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0005913014872930944,
+          "quantile": 0.5,
+          "sample_id": 9180,
+          "selected_sample_correct_mean_mse": 0.0005913014872930944
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.0007904619182227179,
+          "quantile": 0.75,
+          "sample_id": 2171,
+          "selected_sample_correct_mean_mse": 0.0007906434766482562
+        }
+      }
+    },
+    {
+      "candidate_count": 1032,
+      "class_id": 2,
+      "class_name": "2",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0014658995816716923,
+          "quantile": 0.25,
+          "sample_id": 237,
+          "selected_sample_correct_mean_mse": 0.0014664673013612627
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0018489354464691133,
+          "quantile": 0.5,
+          "sample_id": 3375,
+          "selected_sample_correct_mean_mse": 0.0018493361887522042
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.002261620372883044,
+          "quantile": 0.75,
+          "sample_id": 9798,
+          "selected_sample_correct_mean_mse": 0.002261552936397493
+        }
+      }
+    },
+    {
+      "candidate_count": 1010,
+      "class_id": 3,
+      "class_name": "3",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0014570578307029792,
+          "quantile": 0.25,
+          "sample_id": 7479,
+          "selected_sample_correct_mean_mse": 0.001456827495712787
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0017670204397290945,
+          "quantile": 0.5,
+          "sample_id": 4638,
+          "selected_sample_correct_mean_mse": 0.0017672701040282845
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.0023139820084907116,
+          "quantile": 0.75,
+          "sample_id": 6676,
+          "selected_sample_correct_mean_mse": 0.0023153490270487963
+        }
+      }
+    },
+    {
+      "candidate_count": 982,
+      "class_id": 4,
+      "class_name": "4",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.001300924514362123,
+          "quantile": 0.25,
+          "sample_id": 5559,
+          "selected_sample_correct_mean_mse": 0.001300922379596159
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0015507124713622033,
+          "quantile": 0.5,
+          "sample_id": 4042,
+          "selected_sample_correct_mean_mse": 0.001550653879530728
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.0019150164007442072,
+          "quantile": 0.75,
+          "sample_id": 1511,
+          "selected_sample_correct_mean_mse": 0.0019160209456458687
+        }
+      }
+    },
+    {
+      "candidate_count": 892,
+      "class_id": 5,
+      "class_name": "5",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0015053974042530172,
+          "quantile": 0.25,
+          "sample_id": 1755,
+          "selected_sample_correct_mean_mse": 0.0015054423420224339
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0018280742049682887,
+          "quantile": 0.5,
+          "sample_id": 4263,
+          "selected_sample_correct_mean_mse": 0.0018284428981132806
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.0022987687814747916,
+          "quantile": 0.75,
+          "sample_id": 711,
+          "selected_sample_correct_mean_mse": 0.0022977518616244196
+        }
+      }
+    },
+    {
+      "candidate_count": 958,
+      "class_id": 6,
+      "class_name": "6",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0014330928621347993,
+          "quantile": 0.25,
+          "sample_id": 3564,
+          "selected_sample_correct_mean_mse": 0.001432954636402428
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0017516863415949048,
+          "quantile": 0.5,
+          "sample_id": 8580,
+          "selected_sample_correct_mean_mse": 0.001752118393778801
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.002241459078504704,
+          "quantile": 0.75,
+          "sample_id": 5467,
+          "selected_sample_correct_mean_mse": 0.002241702936589718
+        }
+      }
+    },
+    {
+      "candidate_count": 1028,
+      "class_id": 7,
+      "class_name": "7",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0009577361081028358,
+          "quantile": 0.25,
+          "sample_id": 6944,
+          "selected_sample_correct_mean_mse": 0.0009577747201547027
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0012310985825024546,
+          "quantile": 0.5,
+          "sample_id": 2278,
+          "selected_sample_correct_mean_mse": 0.0012311187339946628
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.001660216847085394,
+          "quantile": 0.75,
+          "sample_id": 2730,
+          "selected_sample_correct_mean_mse": 0.0016600136179476977
+        }
+      }
+    },
+    {
+      "candidate_count": 974,
+      "class_id": 8,
+      "class_name": "8",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0017651036818278954,
+          "quantile": 0.25,
+          "sample_id": 1007,
+          "selected_sample_correct_mean_mse": 0.0017649208777584136
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.002182259422261268,
+          "quantile": 0.5,
+          "sample_id": 436,
+          "selected_sample_correct_mean_mse": 0.002180945232976228
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.0027720944490283728,
+          "quantile": 0.75,
+          "sample_id": 2111,
+          "selected_sample_correct_mean_mse": 0.0027745073195546864
+        }
+      }
+    },
+    {
+      "candidate_count": 1009,
+      "class_id": 9,
+      "class_name": "9",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.001249629887752235,
+          "quantile": 0.25,
+          "sample_id": 5580,
+          "selected_sample_correct_mean_mse": 0.001249629887752235
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0015017176745459437,
+          "quantile": 0.5,
+          "sample_id": 1501,
+          "selected_sample_correct_mean_mse": 0.0015017176745459437
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.0018721924512647091,
+          "quantile": 0.75,
+          "sample_id": 9216,
+          "selected_sample_correct_mean_mse": 0.0018721924512647091
+        }
+      }
+    }
+  ],
+  "dataset": {
+    "class_names": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "image_shape_chw": [
+      1,
+      28,
+      28
+    ],
+    "name": "mnist",
+    "official_test_index_definition": "zero-based index in torchvision.datasets.MNIST(train=False)",
+    "root": "${TRAIN_DATA_ROOT}/MNIST",
+    "sample_count": 10000,
+    "split": "test",
+    "train": false
+  },
+  "fixed_state_indices": {
+    "representative_median_wrong": 1,
+    "sender_state": 2,
+    "wrong_cross_pump_same_power": 7,
+    "wrong_same_pump_other_power": 4
+  },
+  "fixed_states": {
+    "representative_median_wrong": {
+      "index": 1,
+      "power_mw": 5,
+      "pump_nm": 405,
+      "state_id": "405nm_5mW"
+    },
+    "sender_state": {
+      "index": 2,
+      "power_mw": 10,
+      "pump_nm": 405,
+      "state_id": "405nm_10mW"
+    },
+    "wrong_cross_pump_same_power": {
+      "index": 7,
+      "power_mw": 10,
+      "pump_nm": 640,
+      "state_id": "640nm_10mW"
+    },
+    "wrong_same_pump_other_power": {
+      "index": 4,
+      "power_mw": 20,
+      "pump_nm": 405,
+      "state_id": "405nm_20mW"
+    }
+  },
+  "inputs": {
+    "codebook_manifest": {
+      "path": "data/optical/lightwave_bank_d64_k128.manifest.json",
+      "publication_sha256": "8edd716853d7022011add8eba1801710f76ff6c0b1350d805097178181bb966c",
+      "schema": "lightwave-seeded-vqvae-codebook-manifest-v1",
+      "sha256": "9e7c65c5a0124edb194ae6efe4d5068e0631ab0ff542ece49bc9df4e3af6cd7d"
+    },
+    "evaluation_manifest": {
+      "path": "HISTORICAL_SELECTION_INPUT/mnist/evaluation_manifest.json",
+      "publication_corrected_sha256": "36a7f2cf5b7d8f0990076a98d2609fb928692da024ddf76f092961ea5100e1ce",
+      "schema": "lightwave-seeded-vqvae-final-evaluation-v2",
+      "sha256": "14981d4bbd1bde2cc5968b11625fed739b3cd7673952915d7d293f4d99234d4f"
+    },
+    "mnist_test_labels": {
+      "canonical_int64_sha256": "2fd8de6bdb8d11780b4b96dc57847bcfe6953f7c32aa48bfcd8237c3b7847243"
+    },
+    "per_image_metrics": {
+      "path": "HISTORICAL_SELECTION_INPUT/mnist/per_image_metrics.npz",
+      "seeded_cross_mse_dtype": "float32",
+      "seeded_cross_mse_float32le_sha256": "dff516fb446d092bd4f4668288531d80f035499cbd8eb55beaf20a252cb246bc",
+      "seeded_cross_mse_shape": [
+        10000,
+        10,
+        10
+      ],
+      "sha256": "87f88badbadd035086473d94f4bc22649127079c33b17e804c4467abf3144530"
+    }
+  },
+  "representative_selection": {
+    "eligible_pair_count": 7,
+    "pooled_mse": 0.021084251547802704,
+    "receiver_state": 1,
+    "row_relative_mse": 12.074386906987952,
+    "row_wrong_median_pooled_mse": 0.02627800310899038,
+    "row_wrong_pair_count": 9,
+    "send_state": 2
+  },
+  "schema": "lightwave-seeded-vqvae-mnist-stagec-sample-registry-v1",
+  "selection_algorithm": {
+    "empirical_quantile_method": "numpy.quantile(method='linear')",
+    "manual_visual_selection": false,
+    "name": "mnist-stagec-correct-state-mean-per-digit-quantiles-v1",
+    "quantiles": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "score": "per-image arithmetic mean of the ten correct-state entries seeded_cross_mse[:, s, s]",
+    "selection_rule": "within each digit class choose the closest score to the empirical quantile; exact ties choose the lower official test ID"
+  },
+  "state_order": [
+    {
+      "index": 0,
+      "power_mw": 0,
+      "pump_nm": 405,
+      "state_id": "405nm_0mW"
+    },
+    {
+      "index": 1,
+      "power_mw": 5,
+      "pump_nm": 405,
+      "state_id": "405nm_5mW"
+    },
+    {
+      "index": 2,
+      "power_mw": 10,
+      "pump_nm": 405,
+      "state_id": "405nm_10mW"
+    },
+    {
+      "index": 3,
+      "power_mw": 15,
+      "pump_nm": 405,
+      "state_id": "405nm_15mW"
+    },
+    {
+      "index": 4,
+      "power_mw": 20,
+      "pump_nm": 405,
+      "state_id": "405nm_20mW"
+    },
+    {
+      "index": 5,
+      "power_mw": 0,
+      "pump_nm": 640,
+      "state_id": "640nm_0mW"
+    },
+    {
+      "index": 6,
+      "power_mw": 5,
+      "pump_nm": 640,
+      "state_id": "640nm_5mW"
+    },
+    {
+      "index": 7,
+      "power_mw": 10,
+      "pump_nm": 640,
+      "state_id": "640nm_10mW"
+    },
+    {
+      "index": 8,
+      "power_mw": 15,
+      "pump_nm": 640,
+      "state_id": "640nm_15mW"
+    },
+    {
+      "index": 9,
+      "power_mw": 20,
+      "pump_nm": 640,
+      "state_id": "640nm_20mW"
+    }
+  ]
+}

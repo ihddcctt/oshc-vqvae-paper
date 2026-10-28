@@ -1,0 +1,422 @@
+{
+  "classes": [
+    {
+      "candidate_count": 800,
+      "class_id": 0,
+      "class_name": "airplane",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0014009387698024512,
+          "quantile": 0.25,
+          "sample_id": 4299,
+          "selected_sample_correct_mean_mse": 0.0014010704006068408
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0019429800333455203,
+          "quantile": 0.5,
+          "sample_id": 5671,
+          "selected_sample_correct_mean_mse": 0.001941998687107116
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.0027833759260829536,
+          "quantile": 0.75,
+          "sample_id": 2004,
+          "selected_sample_correct_mean_mse": 0.002782495808787644
+        }
+      }
+    },
+    {
+      "candidate_count": 800,
+      "class_id": 1,
+      "class_name": "bird",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0019574154750443993,
+          "quantile": 0.25,
+          "sample_id": 2239,
+          "selected_sample_correct_mean_mse": 0.0019594602519646285
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.002921384118963033,
+          "quantile": 0.5,
+          "sample_id": 233,
+          "selected_sample_correct_mean_mse": 0.0029218753101304174
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.004074837517691776,
+          "quantile": 0.75,
+          "sample_id": 1235,
+          "selected_sample_correct_mean_mse": 0.00406288169324398
+        }
+      }
+    },
+    {
+      "candidate_count": 800,
+      "class_id": 2,
+      "class_name": "car",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.002543996222084388,
+          "quantile": 0.25,
+          "sample_id": 4359,
+          "selected_sample_correct_mean_mse": 0.0025476022623479367
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.003296995349228382,
+          "quantile": 0.5,
+          "sample_id": 2359,
+          "selected_sample_correct_mean_mse": 0.003295972337946296
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.004319793556351215,
+          "quantile": 0.75,
+          "sample_id": 5994,
+          "selected_sample_correct_mean_mse": 0.004318086663261056
+        }
+      }
+    },
+    {
+      "candidate_count": 800,
+      "class_id": 3,
+      "class_name": "cat",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.001905894244555384,
+          "quantile": 0.25,
+          "sample_id": 21,
+          "selected_sample_correct_mean_mse": 0.0019070232287049294
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0027827746234834194,
+          "quantile": 0.5,
+          "sample_id": 3261,
+          "selected_sample_correct_mean_mse": 0.002777989045716822
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.004042717575794086,
+          "quantile": 0.75,
+          "sample_id": 6597,
+          "selected_sample_correct_mean_mse": 0.004041317291557789
+        }
+      }
+    },
+    {
+      "candidate_count": 800,
+      "class_id": 4,
+      "class_name": "deer",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0020583570905728264,
+          "quantile": 0.25,
+          "sample_id": 3431,
+          "selected_sample_correct_mean_mse": 0.0020589306019246577
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0029769228538498284,
+          "quantile": 0.5,
+          "sample_id": 2963,
+          "selected_sample_correct_mean_mse": 0.0029770599910989405
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.004157122148899362,
+          "quantile": 0.75,
+          "sample_id": 5213,
+          "selected_sample_correct_mean_mse": 0.0041549581103026865
+        }
+      }
+    },
+    {
+      "candidate_count": 800,
+      "class_id": 5,
+      "class_name": "dog",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0018039309594314545,
+          "quantile": 0.25,
+          "sample_id": 6011,
+          "selected_sample_correct_mean_mse": 0.0018050492159090935
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0025839893729425966,
+          "quantile": 0.5,
+          "sample_id": 2734,
+          "selected_sample_correct_mean_mse": 0.0025839184410870073
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.003485100768739358,
+          "quantile": 0.75,
+          "sample_id": 5793,
+          "selected_sample_correct_mean_mse": 0.003483136370778084
+        }
+      }
+    },
+    {
+      "candidate_count": 800,
+      "class_id": 6,
+      "class_name": "horse",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.002424659102689475,
+          "quantile": 0.25,
+          "sample_id": 4604,
+          "selected_sample_correct_mean_mse": 0.0024251601193100215
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.003233693179208785,
+          "quantile": 0.5,
+          "sample_id": 3549,
+          "selected_sample_correct_mean_mse": 0.003231731615960598
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.004283967486117035,
+          "quantile": 0.75,
+          "sample_id": 2491,
+          "selected_sample_correct_mean_mse": 0.004282983392477036
+        }
+      }
+    },
+    {
+      "candidate_count": 800,
+      "class_id": 7,
+      "class_name": "monkey",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0019624618435045704,
+          "quantile": 0.25,
+          "sample_id": 6088,
+          "selected_sample_correct_mean_mse": 0.0019646928878501056
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0028633541776798667,
+          "quantile": 0.5,
+          "sample_id": 7031,
+          "selected_sample_correct_mean_mse": 0.0028647424187511206
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.00427466657711193,
+          "quantile": 0.75,
+          "sample_id": 2090,
+          "selected_sample_correct_mean_mse": 0.004273108812049032
+        }
+      }
+    },
+    {
+      "candidate_count": 800,
+      "class_id": 8,
+      "class_name": "ship",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.0015753317071357741,
+          "quantile": 0.25,
+          "sample_id": 3878,
+          "selected_sample_correct_mean_mse": 0.0015757400426082313
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.002140660671284422,
+          "quantile": 0.5,
+          "sample_id": 667,
+          "selected_sample_correct_mean_mse": 0.002141861116979271
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.0028856188291683793,
+          "quantile": 0.75,
+          "sample_id": 2867,
+          "selected_sample_correct_mean_mse": 0.002883430221118033
+        }
+      }
+    },
+    {
+      "candidate_count": 800,
+      "class_id": 9,
+      "class_name": "truck",
+      "quantiles": {
+        "q25": {
+          "empirical_quantile_correct_mean_mse": 0.002370875095948577,
+          "quantile": 0.25,
+          "sample_id": 3493,
+          "selected_sample_correct_mean_mse": 0.002371117565780878
+        },
+        "q50": {
+          "empirical_quantile_correct_mean_mse": 0.0032489574514329433,
+          "quantile": 0.5,
+          "sample_id": 6310,
+          "selected_sample_correct_mean_mse": 0.0032472039107233285
+        },
+        "q75": {
+          "empirical_quantile_correct_mean_mse": 0.0042419064091518514,
+          "quantile": 0.75,
+          "sample_id": 6472,
+          "selected_sample_correct_mean_mse": 0.004241040302440524
+        }
+      }
+    }
+  ],
+  "dataset": {
+    "class_names": [
+      "airplane",
+      "bird",
+      "car",
+      "cat",
+      "deer",
+      "dog",
+      "horse",
+      "monkey",
+      "ship",
+      "truck"
+    ],
+    "image_shape_chw": [
+      3,
+      96,
+      96
+    ],
+    "name": "stl10",
+    "official_test_index_definition": "zero-based index in torchvision.datasets.STL10(split='test')",
+    "root": "${TRAIN_DATA_ROOT}/STL10",
+    "sample_count": 8000,
+    "split": "test"
+  },
+  "fixed_state_indices": {
+    "representative_median_wrong": 3,
+    "sender_state": 2,
+    "wrong_cross_pump_same_power": 7,
+    "wrong_same_pump_other_power": 4
+  },
+  "fixed_states": {
+    "representative_median_wrong": {
+      "index": 3,
+      "power_mw": 15,
+      "pump_nm": 405,
+      "state_id": "405nm_15mW"
+    },
+    "sender_state": {
+      "index": 2,
+      "power_mw": 10,
+      "pump_nm": 405,
+      "state_id": "405nm_10mW"
+    },
+    "wrong_cross_pump_same_power": {
+      "index": 7,
+      "power_mw": 10,
+      "pump_nm": 640,
+      "state_id": "640nm_10mW"
+    },
+    "wrong_same_pump_other_power": {
+      "index": 4,
+      "power_mw": 20,
+      "pump_nm": 405,
+      "state_id": "405nm_20mW"
+    }
+  },
+  "inputs": {
+    "codebook_manifest": {
+      "path": "data/optical/lightwave_bank_d64_k128.manifest.json",
+      "publication_sha256": "8edd716853d7022011add8eba1801710f76ff6c0b1350d805097178181bb966c",
+      "schema": "lightwave-seeded-vqvae-codebook-manifest-v1",
+      "sha256": "9e7c65c5a0124edb194ae6efe4d5068e0631ab0ff542ece49bc9df4e3af6cd7d"
+    },
+    "evaluation_manifest": {
+      "path": "HISTORICAL_SELECTION_INPUT/stl10/evaluation_manifest.json",
+      "publication_corrected_sha256": "9131f993ccfbf62a5c5db54ef04ea7ce4320f985c2f5e7c95c35e2e2ed911c5b",
+      "schema": "lightwave-seeded-vqvae-final-evaluation-v2",
+      "sha256": "130b0fcbd13ee3df5930dddf85cd737981ffe08c9d0101e7b2cf4ce0aaba0891"
+    },
+    "per_image_metrics": {
+      "path": "HISTORICAL_SELECTION_INPUT/stl10/per_image_metrics.npz",
+      "seeded_cross_mse_dtype": "float32",
+      "seeded_cross_mse_float32le_sha256": "217bc230e772f9a6e0b70a6fde059f50a550c4ba0589d4a3a9d7cc3aca506ad6",
+      "seeded_cross_mse_shape": [
+        8000,
+        10,
+        10
+      ],
+      "sha256": "0816674f0c44a63f34aded07dee5b642f53385b1096295a37aebe8ece975be8f"
+    },
+    "stl10_test_labels": {
+      "canonical_int64_sha256": "b0cab632c30757f21e4b157f0a6a25c0177cd504d446aa368b95578b5bfe24b8"
+    }
+  },
+  "representative_selection": {
+    "eligible_pair_count": 7,
+    "pooled_mse": 0.029486376821354496,
+    "receiver_state": 3,
+    "row_relative_mse": 9.31495182415747,
+    "row_wrong_median_pooled_mse": 0.029486376821354496,
+    "row_wrong_pair_count": 9,
+    "send_state": 2
+  },
+  "schema": "lightwave-seeded-vqvae-stl10-sample-registry-v1",
+  "selection_algorithm": {
+    "empirical_quantile_method": "numpy.quantile(method='linear')",
+    "manual_visual_selection": false,
+    "name": "stl10-correct-state-mean-per-class-quantiles-v1",
+    "quantiles": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "score": "per-image arithmetic mean of the ten correct-state entries seeded_cross_mse[:, s, s]",
+    "selection_rule": "within each official class choose the closest score to the empirical quantile; exact ties choose the lower official test ID"
+  },
+  "state_order": [
+    {
+      "index": 0,
+      "power_mw": 0,
+      "pump_nm": 405,
+      "state_id": "405nm_0mW"
+    },
+    {
+      "index": 1,
+      "power_mw": 5,
+      "pump_nm": 405,
+      "state_id": "405nm_5mW"
+    },
+    {
+      "index": 2,
+      "power_mw": 10,
+      "pump_nm": 405,
+      "state_id": "405nm_10mW"
+    },
+    {
+      "index": 3,
+      "power_mw": 15,
+      "pump_nm": 405,
+      "state_id": "405nm_15mW"
+    },
+    {
+      "index": 4,
+      "power_mw": 20,
+      "pump_nm": 405,
+      "state_id": "405nm_20mW"
+    },
+    {
+      "index": 5,
+      "power_mw": 0,
+      "pump_nm": 640,
+      "state_id": "640nm_0mW"
+    },
+    {
+      "index": 6,
+      "power_mw": 5,
+      "pump_nm": 640,
+      "state_id": "640nm_5mW"
+    },
+    {
+      "index": 7,
+      "power_mw": 10,
+      "pump_nm": 640,
+      "state_id": "640nm_10mW"
+    },
+    {
+      "index": 8,
+      "power_mw": 15,
+      "pump_nm": 640,
+      "state_id": "640nm_15mW"
+    },
+    {
+      "index": 9,
+      "power_mw": 20,
+      "pump_nm": 640,
+      "state_id": "640nm_20mW"
+    }
+  ]
+}

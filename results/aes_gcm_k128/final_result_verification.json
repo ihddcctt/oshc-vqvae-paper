@@ -1,0 +1,60 @@
+{
+  "original_tracked_files": 280,
+  "changed_original_files": [],
+  "checkpoints_and_bank_unchanged": true,
+  "unit_tests": 199,
+  "test_suites": {
+    "tests.test_transport_k128_v2": 171,
+    "tests.test_transport_bits": 8,
+    "tests.test_transport_aes_gcm": 15,
+    "tests.test_aes_gcm_ablation": 5
+  },
+  "datasets": {
+    "mnist": {
+      "registered_samples": 30,
+      "matched_rows": 300,
+      "mismatch_rows": 30,
+      "rejected_packets": 1800,
+      "all_index_and_image_hashes_equal": true,
+      "metric_deltas_zero": true,
+      "historical_saved_metric_comparison": {
+        "mse": {
+          "max_abs_difference": 0.0,
+          "nonzero_cases": 0
+        },
+        "ssim": {
+          "max_abs_difference": 0.0,
+          "nonzero_cases": 0
+        },
+        "lpips": {
+          "max_abs_difference": 0.0,
+          "nonzero_cases": 0
+        }
+      },
+      "elapsed_seconds": 59.015336299999035
+    },
+    "stl10": {
+      "registered_samples": 30,
+      "matched_rows": 300,
+      "mismatch_rows": 30,
+      "rejected_packets": 1800,
+      "all_index_and_image_hashes_equal": true,
+      "metric_deltas_zero": true,
+      "historical_saved_metric_comparison": {
+        "mse": {
+          "max_abs_difference": 0.0,
+          "nonzero_cases": 0
+        },
+        "ssim": {
+          "max_abs_difference": 0.0,
+          "nonzero_cases": 0
+        },
+        "lpips": {
+          "max_abs_difference": 0.0,
+          "nonzero_cases": 0
+        }
+      },
+      "elapsed_seconds": 92.95826999999917
+    }
+  }
+}

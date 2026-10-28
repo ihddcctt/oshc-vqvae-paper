@@ -1,0 +1,11 @@
+{
+  "binding_evaluation_enabled": false,
+  "binding_ready_epoch": null,
+  "binding_target_satisfied": null,
+  "binding_training_enabled": false,
+  "checkpoint_selection": "correct_validation_mse",
+  "completed_epochs": 80,
+  "early_stop": null,
+  "selected_checkpoint": "checkpoint_best_reconstruction.pt",
+  "selection_reason": "best_correct_state_validation_mse"
+}

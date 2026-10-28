@@ -1,0 +1,23 @@
+name: oshc-vqvae
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10.14
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - pytorch-cuda=12.1
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - openpyxl==3.1.5
+      - PyYAML==6.0.3
+      - tqdm==4.67.1
+      - scipy==1.11.4
+      - scikit-image==0.22.0
+      - matplotlib==3.10.0
+      - cryptography==42.0.8
+      - lpips==0.1.4
+      - pytest==8.4.2
+

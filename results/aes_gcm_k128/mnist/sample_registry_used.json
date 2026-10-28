@@ -1,0 +1,348 @@
+{
+  "source": "artifacts/fixed_samples/mnist_stagec_sample_registry.json",
+  "sha256": "069406f7202f5ee8cb4dc119686b59f188bf18a1de9c7a7e4d029d58b9eb499b",
+  "samples": [
+    {
+      "sample_id": 5974,
+      "class_id": 0,
+      "quantile": "q25"
+    },
+    {
+      "sample_id": 4327,
+      "class_id": 0,
+      "quantile": "q50"
+    },
+    {
+      "sample_id": 9273,
+      "class_id": 0,
+      "quantile": "q75"
+    },
+    {
+      "sample_id": 9682,
+      "class_id": 1,
+      "quantile": "q25"
+    },
+    {
+      "sample_id": 9180,
+      "class_id": 1,
+      "quantile": "q50"
+    },
+    {
+      "sample_id": 2171,
+      "class_id": 1,
+      "quantile": "q75"
+    },
+    {
+      "sample_id": 237,
+      "class_id": 2,
+      "quantile": "q25"
+    },
+    {
+      "sample_id": 3375,
+      "class_id": 2,
+      "quantile": "q50"
+    },
+    {
+      "sample_id": 9798,
+      "class_id": 2,
+      "quantile": "q75"
+    },
+    {
+      "sample_id": 7479,
+      "class_id": 3,
+      "quantile": "q25"
+    },
+    {
+      "sample_id": 4638,
+      "class_id": 3,
+      "quantile": "q50"
+    },
+    {
+      "sample_id": 6676,
+      "class_id": 3,
+      "quantile": "q75"
+    },
+    {
+      "sample_id": 5559,
+      "class_id": 4,
+      "quantile": "q25"
+    },
+    {
+      "sample_id": 4042,
+      "class_id": 4,
+      "quantile": "q50"
+    },
+    {
+      "sample_id": 1511,
+      "class_id": 4,
+      "quantile": "q75"
+    },
+    {
+      "sample_id": 1755,
+      "class_id": 5,
+      "quantile": "q25"
+    },
+    {
+      "sample_id": 4263,
+      "class_id": 5,
+      "quantile": "q50"
+    },
+    {
+      "sample_id": 711,
+      "class_id": 5,
+      "quantile": "q75"
+    },
+    {
+      "sample_id": 3564,
+      "class_id": 6,
+      "quantile": "q25"
+    },
+    {
+      "sample_id": 8580,
+      "class_id": 6,
+      "quantile": "q50"
+    },
+    {
+      "sample_id": 5467,
+      "class_id": 6,
+      "quantile": "q75"
+    },
+    {
+      "sample_id": 6944,
+      "class_id": 7,
+      "quantile": "q25"
+    },
+    {
+      "sample_id": 2278,
+      "class_id": 7,
+      "quantile": "q50"
+    },
+    {
+      "sample_id": 2730,
+      "class_id": 7,
+      "quantile": "q75"
+    },
+    {
+      "sample_id": 1007,
+      "class_id": 8,
+      "quantile": "q25"
+    },
+    {
+      "sample_id": 436,
+      "class_id": 8,
+      "quantile": "q50"
+    },
+    {
+      "sample_id": 2111,
+      "class_id": 8,
+      "quantile": "q75"
+    },
+    {
+      "sample_id": 5580,
+      "class_id": 9,
+      "quantile": "q25"
+    },
+    {
+      "sample_id": 1501,
+      "class_id": 9,
+      "quantile": "q50"
+    },
+    {
+      "sample_id": 9216,
+      "class_id": 9,
+      "quantile": "q75"
+    }
+  ],
+  "input_fingerprints": [
+    {
+      "sample_id": 237,
+      "class_id": 2,
+      "quantile": "q25",
+      "image_float32_sha256": "7d15db5ae3a3370619f20fe558607b47db59666d3d2e27030d264897c0d6d45e"
+    },
+    {
+      "sample_id": 436,
+      "class_id": 8,
+      "quantile": "q50",
+      "image_float32_sha256": "490c31cf05cd27bf79f15aa51654d6ef4bbd286fd3d2b78620fe70ff86e08745"
+    },
+    {
+      "sample_id": 711,
+      "class_id": 5,
+      "quantile": "q75",
+      "image_float32_sha256": "1fbae180231122f34d36dda3dbf1f7dee66224885ccc7a574f6d2597c95a8f01"
+    },
+    {
+      "sample_id": 1007,
+      "class_id": 8,
+      "quantile": "q25",
+      "image_float32_sha256": "4f9f3466b1146e9ccdf6399daa2b5d5f1b3c27a61d9dcffdbdeea90e7c3ac114"
+    },
+    {
+      "sample_id": 1501,
+      "class_id": 9,
+      "quantile": "q50",
+      "image_float32_sha256": "c79437b987680dc6a4a101e3aeb3f2a13e72c52f2fdd525ddbf80e9b8b737c43"
+    },
+    {
+      "sample_id": 1511,
+      "class_id": 4,
+      "quantile": "q75",
+      "image_float32_sha256": "92f3dbe07bb6638e4fd8af4554a3b0894da2ed54b08f97c932b5fa37280aa70c"
+    },
+    {
+      "sample_id": 1755,
+      "class_id": 5,
+      "quantile": "q25",
+      "image_float32_sha256": "c0d0197323a573968ae751bc293b5941f7edcfe5a7f09a189dff4320b6f90703"
+    },
+    {
+      "sample_id": 2111,
+      "class_id": 8,
+      "quantile": "q75",
+      "image_float32_sha256": "c4631b745f95e9fb0cf22ea3ff582b374460b0aa8f693933b25d5401b8b5952f"
+    },
+    {
+      "sample_id": 2171,
+      "class_id": 1,
+      "quantile": "q75",
+      "image_float32_sha256": "f07ca3f5acbe35265dd54c882d9d89320756cec0fad1b07a4608be50e013f197"
+    },
+    {
+      "sample_id": 2278,
+      "class_id": 7,
+      "quantile": "q50",
+      "image_float32_sha256": "4f3143ac5ff26fecf11e02a351a96af09c77a74335513e52c2de462e0d5fce2c"
+    },
+    {
+      "sample_id": 2730,
+      "class_id": 7,
+      "quantile": "q75",
+      "image_float32_sha256": "3872179b90cf9f0ee7dc997e152200749546de651469c9dad5c21fc1643dc881"
+    },
+    {
+      "sample_id": 3375,
+      "class_id": 2,
+      "quantile": "q50",
+      "image_float32_sha256": "adfbc20477963bd4e272ef7987adb002c1515fa81caf4c36abda33426e9f2f51"
+    },
+    {
+      "sample_id": 3564,
+      "class_id": 6,
+      "quantile": "q25",
+      "image_float32_sha256": "af3ee7cb5c913978ee2b4bbc0f9004fbaecbf35bda89aa89b27e443e347b40e8"
+    },
+    {
+      "sample_id": 4042,
+      "class_id": 4,
+      "quantile": "q50",
+      "image_float32_sha256": "daa4fa23ed06409444522125144374b1b2453a7ca5363c48bb3bc1db36495c10"
+    },
+    {
+      "sample_id": 4263,
+      "class_id": 5,
+      "quantile": "q50",
+      "image_float32_sha256": "fd30b78ff19b58dd44b2341cb926d0d29d2b83094d0f193ac4ab759bbd91ca9d"
+    },
+    {
+      "sample_id": 4327,
+      "class_id": 0,
+      "quantile": "q50",
+      "image_float32_sha256": "9d8b7491f41a843a8bbf0802a4f2f19796b04a83f63687e464bffbe6936b1990"
+    },
+    {
+      "sample_id": 4638,
+      "class_id": 3,
+      "quantile": "q50",
+      "image_float32_sha256": "4bd13a1794f209a6a03f39123acfe85830d5e1d44a369a997120aff9062113d6"
+    },
+    {
+      "sample_id": 5467,
+      "class_id": 6,
+      "quantile": "q75",
+      "image_float32_sha256": "46bd9cedff466fd0127accc4ba6dca1fcd44ad8c1cf99f5e0e1e356b914de923"
+    },
+    {
+      "sample_id": 5559,
+      "class_id": 4,
+      "quantile": "q25",
+      "image_float32_sha256": "bfffdd83b44910aa82b96ce5245e52cff223022afe1f166f36857d6e7a2fcc54"
+    },
+    {
+      "sample_id": 5580,
+      "class_id": 9,
+      "quantile": "q25",
+      "image_float32_sha256": "e6b5190f053be5d50b6e81a2b04dcdf3efa8fa184584f303b26babbb46b6e62f"
+    },
+    {
+      "sample_id": 5974,
+      "class_id": 0,
+      "quantile": "q25",
+      "image_float32_sha256": "78d0f71a5a70b47ba2ce8903da019999019d2c35c68348107d600fcd2885f4b6"
+    },
+    {
+      "sample_id": 6676,
+      "class_id": 3,
+      "quantile": "q75",
+      "image_float32_sha256": "87bbe7c2b31aa341b48c5fa502faa33f1532e4af0dbd969d3839dd1189f1a5ae"
+    },
+    {
+      "sample_id": 6944,
+      "class_id": 7,
+      "quantile": "q25",
+      "image_float32_sha256": "f6bedf5be6c8c440f6fe6d9bfb7ac4ef8a9fcc6ce127192935be34c52e22b5db"
+    },
+    {
+      "sample_id": 7479,
+      "class_id": 3,
+      "quantile": "q25",
+      "image_float32_sha256": "05e1c5a579b1c5079d791c7bbed8b5d7c5eab28e686a64e33274cda70b8c146f"
+    },
+    {
+      "sample_id": 8580,
+      "class_id": 6,
+      "quantile": "q50",
+      "image_float32_sha256": "9323267f0308086e13bdc9f2a3e3d010fee6e1b5af395df53a1bd9ee166e6eb3"
+    },
+    {
+      "sample_id": 9180,
+      "class_id": 1,
+      "quantile": "q50",
+      "image_float32_sha256": "90b7b2eb6bd1e351c2f17a5b55d37d91dda6523ee80b4508d4871353a18c62c3"
+    },
+    {
+      "sample_id": 9216,
+      "class_id": 9,
+      "quantile": "q75",
+      "image_float32_sha256": "03896f2a3df263c5bc6f92de2d0fc7906b0ff2545dd1ca1041152a2baf9e45ac"
+    },
+    {
+      "sample_id": 9273,
+      "class_id": 0,
+      "quantile": "q75",
+      "image_float32_sha256": "cbcb891a14fc1155441e57c1a3eff291a33c53c4f5750b3a0fd7de844ac23c18"
+    },
+    {
+      "sample_id": 9682,
+      "class_id": 1,
+      "quantile": "q25",
+      "image_float32_sha256": "f04a47f0a11f90e427c22657706a53efff738b47f10d30b85ee4c696f907f424"
+    },
+    {
+      "sample_id": 9798,
+      "class_id": 2,
+      "quantile": "q75",
+      "image_float32_sha256": "dc6343b8ef3b39a98691dcd5512024504cb6f7a1c35e63c2d39afa1406868a16"
+    }
+  ],
+  "registered_mismatch": {
+    "eligible_pair_count": 7,
+    "pooled_mse": 0.021084251547802704,
+    "receiver_state": 1,
+    "row_relative_mse": 12.074386906987952,
+    "row_wrong_median_pooled_mse": 0.02627800310899038,
+    "row_wrong_pair_count": 9,
+    "send_state": 2
+  },
+  "publication_sha256": "4b61c54c54be1b8a76bd8cf07b7d08a4e311ac452b234ede4531358c3aa232f6"
+}

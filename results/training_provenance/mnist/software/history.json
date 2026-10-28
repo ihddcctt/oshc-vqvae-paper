@@ -1,0 +1,4644 @@
+{
+  "epochs": [
+    {
+      "elapsed_seconds": 9.862104334999913,
+      "epoch": 1,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.025608865283081466,
+        "commitment_loss": 0.011379271412755703,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.011379271412755703,
+        "first_stage_error": 0.014229593898613597,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.05101311310394623,
+        "reconstruction_l1": 0.06362224453799079,
+        "reconstruction_loss": 0.02255937678600165,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.02255937678600165,
+        "residual_norm_loss": 0.0005323420088737115,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.625,
+        "base_coverage_by_state": [
+          0.625
+        ],
+        "base_coverage_min": 0.625,
+        "base_perplexity": 28.503589281715385,
+        "base_perplexity_by_state": [
+          28.503589281715385
+        ],
+        "base_perplexity_min": 28.503589281715385,
+        "mse": 0.008255589730398995,
+        "mse_by_state": [
+          0.008255589730398995
+        ],
+        "psnr_db": 20.832518978693706,
+        "psnr_db_by_state": [
+          20.832518978693706
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12862751564492986,
+        "reconstruction_output_std": 0.28819851003129016,
+        "residual_coverage": 0.953125,
+        "residual_perplexity": 46.55092154864872
+      }
+    },
+    {
+      "elapsed_seconds": 8.526650657000118,
+      "epoch": 2,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.012032718628331602,
+        "commitment_loss": 0.00477548311551528,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.00477548311551528,
+        "first_stage_error": 0.007257235480176511,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.01961984271705847,
+        "reconstruction_l1": 0.027583336823176,
+        "reconstruction_loss": 0.006393126568922373,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.006393126568922373,
+        "residual_norm_loss": 0.0012662672224480693,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.421875,
+        "base_coverage_by_state": [
+          0.421875
+        ],
+        "base_coverage_min": 0.421875,
+        "base_perplexity": 25.970555835125175,
+        "base_perplexity_by_state": [
+          25.970555835125175
+        ],
+        "base_perplexity_min": 25.970555835125175,
+        "mse": 0.004860415182308275,
+        "mse_by_state": [
+          0.004860415182308275
+        ],
+        "psnr_db": 23.13326631214241,
+        "psnr_db_by_state": [
+          23.13326631214241
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1328876160913584,
+        "reconstruction_output_std": 0.2993279000984418,
+        "residual_coverage": 1.0,
+        "residual_perplexity": 64.88057039191156
+      }
+    },
+    {
+      "elapsed_seconds": 8.39854262200015,
+      "epoch": 3,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.007682298488531993,
+        "commitment_loss": 0.0029408924681978807,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0029408924681978807,
+        "first_stage_error": 0.004741406005102201,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.012842123679573013,
+        "reconstruction_l1": 0.022382900084012024,
+        "reconstruction_loss": 0.004424456464535792,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.004424456464535792,
+        "residual_norm_loss": 0.0014562966279189373,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.375,
+        "base_coverage_by_state": [
+          0.375
+        ],
+        "base_coverage_min": 0.375,
+        "base_perplexity": 26.933506089314886,
+        "base_perplexity_by_state": [
+          26.933506089314886
+        ],
+        "base_perplexity_min": 26.933506089314886,
+        "mse": 0.0038248682839529856,
+        "mse_by_state": [
+          0.0038248682839529856
+        ],
+        "psnr_db": 24.173835159449617,
+        "psnr_db_by_state": [
+          24.173835159449617
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1290515266262755,
+        "reconstruction_output_std": 0.2961459670242682,
+        "residual_coverage": 1.0,
+        "residual_perplexity": 85.97605964718922
+      }
+    },
+    {
+      "elapsed_seconds": 8.906878233000043,
+      "epoch": 4,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.005958261729923086,
+        "commitment_loss": 0.002204809767611882,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.002204809767611882,
+        "first_stage_error": 0.003753451929671394,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.010196741513699014,
+        "reconstruction_l1": 0.020293112304583888,
+        "reconstruction_loss": 0.0036871221762968696,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0036871221762968696,
+        "residual_norm_loss": 0.0015515384039075644,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3984375,
+        "base_coverage_by_state": [
+          0.3984375
+        ],
+        "base_coverage_min": 0.3984375,
+        "base_perplexity": 28.378356010628515,
+        "base_perplexity_by_state": [
+          28.378356010628515
+        ],
+        "base_perplexity_min": 28.378356010628515,
+        "mse": 0.0034698587534378986,
+        "mse_by_state": [
+          0.0034698587534378986
+        ],
+        "psnr_db": 24.5968820355236,
+        "psnr_db_by_state": [
+          24.5968820355236
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1364393724091199,
+        "reconstruction_output_std": 0.30550050991393407,
+        "residual_coverage": 1.0,
+        "residual_perplexity": 97.92366102506834
+      }
+    },
+    {
+      "elapsed_seconds": 8.241203325999777,
+      "epoch": 5,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0050833486434002624,
+        "commitment_loss": 0.001826980126212203,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.001826980126212203,
+        "first_stage_error": 0.003256368511748091,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.008707479552026385,
+        "reconstruction_l1": 0.018790051732734542,
+        "reconstruction_loss": 0.003167224845579155,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.003167224845579155,
+        "residual_norm_loss": 0.001610015342164367,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3671875,
+        "base_coverage_by_state": [
+          0.3671875
+        ],
+        "base_coverage_min": 0.3671875,
+        "base_perplexity": 29.59445421942175,
+        "base_perplexity_by_state": [
+          29.59445421942175
+        ],
+        "base_perplexity_min": 29.59445421942175,
+        "mse": 0.002921785611522441,
+        "mse_by_state": [
+          0.002921785611522441
+        ],
+        "psnr_db": 25.343516539556692,
+        "psnr_db_by_state": [
+          25.343516539556692
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12977963269292092,
+        "reconstruction_output_std": 0.2989131199525505,
+        "residual_coverage": 0.9921875,
+        "residual_perplexity": 99.86055630934978
+      }
+    },
+    {
+      "elapsed_seconds": 8.238807116000316,
+      "epoch": 6,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.004559195163076587,
+        "commitment_loss": 0.0015896774750098447,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0015896774750098447,
+        "first_stage_error": 0.0029695176641308814,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.007838153049663127,
+        "reconstruction_l1": 0.01784827164156693,
+        "reconstruction_loss": 0.002881374928195064,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.002881374928195064,
+        "residual_norm_loss": 0.001635722915541868,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 30.31507015186641,
+        "base_perplexity_by_state": [
+          30.31507015186641
+        ],
+        "base_perplexity_min": 30.31507015186641,
+        "mse": 0.0026024798490563218,
+        "mse_by_state": [
+          0.0026024798490563218
+        ],
+        "psnr_db": 25.84612624536937,
+        "psnr_db_by_state": [
+          25.84612624536937
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13241937031648596,
+        "reconstruction_output_std": 0.30239472088127917,
+        "residual_coverage": 1.0,
+        "residual_perplexity": 97.4532444070981
+      }
+    },
+    {
+      "elapsed_seconds": 9.215789551999933,
+      "epoch": 7,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.00420989233904701,
+        "commitment_loss": 0.0014262360979794204,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0014262360979794204,
+        "first_stage_error": 0.0027836562323636403,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0071793809972668645,
+        "reconstruction_l1": 0.01688590086561358,
+        "reconstruction_loss": 0.002612764238832501,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.002612764238832501,
+        "residual_norm_loss": 0.001654346067149401,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3359375,
+        "base_coverage_by_state": [
+          0.3359375
+        ],
+        "base_coverage_min": 0.3359375,
+        "base_perplexity": 31.21106512136391,
+        "base_perplexity_by_state": [
+          31.21106512136391
+        ],
+        "base_perplexity_min": 31.21106512136391,
+        "mse": 0.0024333636381188217,
+        "mse_by_state": [
+          0.0024333636381188217
+        ],
+        "psnr_db": 26.137929859201,
+        "psnr_db_by_state": [
+          26.137929859201
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1298375019929847,
+        "reconstruction_output_std": 0.30104661250384773,
+        "residual_coverage": 0.984375,
+        "residual_perplexity": 95.31602172268276
+      }
+    },
+    {
+      "elapsed_seconds": 8.690722383999855,
+      "epoch": 8,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.003939306742085196,
+        "commitment_loss": 0.0013018122549978233,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0013018122549978233,
+        "first_stage_error": 0.002637494493615335,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.006695180504678566,
+        "reconstruction_l1": 0.01614933678549584,
+        "reconstruction_loss": 0.0024302558903799994,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0024302558903799994,
+        "residual_norm_loss": 0.0016474809974136057,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 31.976084485273212,
+        "base_perplexity_by_state": [
+          31.976084485273212
+        ],
+        "base_perplexity_min": 31.976084485273212,
+        "mse": 0.002325560172723264,
+        "mse_by_state": [
+          0.002325560172723264
+        ],
+        "psnr_db": 26.33472418851417,
+        "psnr_db_by_state": [
+          26.33472418851417
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13365936503507653,
+        "reconstruction_output_std": 0.3054986389472533,
+        "residual_coverage": 0.9609375,
+        "residual_perplexity": 94.90273626741167
+      }
+    },
+    {
+      "elapsed_seconds": 8.678770991999954,
+      "epoch": 9,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.003727583801069201,
+        "commitment_loss": 0.0012013208562786752,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0012013208562786752,
+        "first_stage_error": 0.0025262629491425007,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.006307769518902647,
+        "reconstruction_l1": 0.015581662940714404,
+        "reconstruction_loss": 0.0022796907431715837,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0022796907431715837,
+        "residual_norm_loss": 0.0016477876533231932,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 32.19833359165449,
+        "base_perplexity_by_state": [
+          32.19833359165449
+        ],
+        "base_perplexity_min": 32.19833359165449,
+        "mse": 0.0022905555569395727,
+        "mse_by_state": [
+          0.0022905555569395727
+        ],
+        "psnr_db": 26.40059170039535,
+        "psnr_db_by_state": [
+          26.40059170039535
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12775222591477997,
+        "reconstruction_output_std": 0.29780646435622476,
+        "residual_coverage": 0.96875,
+        "residual_perplexity": 95.90726452474081
+      }
+    },
+    {
+      "elapsed_seconds": 8.857196294999994,
+      "epoch": 10,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.003586611057692599,
+        "commitment_loss": 0.0011241821361113792,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0011241821361113792,
+        "first_stage_error": 0.002462428910701283,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.005999989196153305,
+        "reconstruction_l1": 0.015017350208640935,
+        "reconstruction_loss": 0.0021321660709549962,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0021321660709549962,
+        "residual_norm_loss": 0.0016656001870929498,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 32.659081023146676,
+        "base_perplexity_by_state": [
+          32.659081023146676
+        ],
+        "base_perplexity_min": 32.659081023146676,
+        "mse": 0.002065182063044334,
+        "mse_by_state": [
+          0.002065182063044334
+        ],
+        "psnr_db": 26.85041655634643,
+        "psnr_db_by_state": [
+          26.85041655634643
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13007130102040818,
+        "reconstruction_output_std": 0.3017849752643592,
+        "residual_coverage": 0.9609375,
+        "residual_perplexity": 96.50997555235591
+      }
+    },
+    {
+      "elapsed_seconds": 8.78450265399988,
+      "epoch": 11,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0034698039624039257,
+        "commitment_loss": 0.0010616503477479532,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0010616503477479532,
+        "first_stage_error": 0.0024081536124799852,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.005796013010456879,
+        "reconstruction_l1": 0.014677570819436946,
+        "reconstruction_loss": 0.0020606282056161314,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0020606282056161314,
+        "residual_norm_loss": 0.0016826116202494877,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.328125,
+        "base_coverage_by_state": [
+          0.328125
+        ],
+        "base_coverage_min": 0.328125,
+        "base_perplexity": 33.028974918194066,
+        "base_perplexity_by_state": [
+          33.028974918194066
+        ],
+        "base_perplexity_min": 33.028974918194066,
+        "mse": 0.002134313610621861,
+        "mse_by_state": [
+          0.002134313610621861
+        ],
+        "psnr_db": 26.707417660944657,
+        "psnr_db_by_state": [
+          26.707417660944657
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12701137371452487,
+        "reconstruction_output_std": 0.2984730672484393,
+        "residual_coverage": 0.953125,
+        "residual_perplexity": 96.84741507654424
+      }
+    },
+    {
+      "elapsed_seconds": 8.546124963999773,
+      "epoch": 12,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.003380904892442104,
+        "commitment_loss": 0.0010125030160698797,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0010125030160698797,
+        "first_stage_error": 0.0023684018818121927,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0056019422280489005,
+        "reconstruction_l1": 0.0143730383427274,
+        "reconstruction_loss": 0.001967741303237277,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.001967741303237277,
+        "residual_norm_loss": 0.0017027298225716593,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.328125,
+        "base_coverage_by_state": [
+          0.328125
+        ],
+        "base_coverage_min": 0.328125,
+        "base_perplexity": 33.617694304419594,
+        "base_perplexity_by_state": [
+          33.617694304419594
+        ],
+        "base_perplexity_min": 33.617694304419594,
+        "mse": 0.0019563055155228594,
+        "mse_by_state": [
+          0.0019563055155228594
+        ],
+        "psnr_db": 27.085633206401397,
+        "psnr_db_by_state": [
+          27.085633206401397
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13129323904854912,
+        "reconstruction_output_std": 0.30416634142524296,
+        "residual_coverage": 0.953125,
+        "residual_perplexity": 97.5546676190434
+      }
+    },
+    {
+      "elapsed_seconds": 7.863978921000125,
+      "epoch": 13,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.003282073014807478,
+        "commitment_loss": 0.0009659311065567814,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0009659311065567814,
+        "first_stage_error": 0.0023161419047147175,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0054109060122831685,
+        "reconstruction_l1": 0.01402826866169817,
+        "reconstruction_loss": 0.001887178675719824,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.001887178675719824,
+        "residual_norm_loss": 0.0017156120287428532,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.328125,
+        "base_coverage_by_state": [
+          0.328125
+        ],
+        "base_coverage_min": 0.328125,
+        "base_perplexity": 34.050990399877385,
+        "base_perplexity_by_state": [
+          34.050990399877385
+        ],
+        "base_perplexity_min": 34.050990399877385,
+        "mse": 0.0019606002651915257,
+        "mse_by_state": [
+          0.0019606002651915257
+        ],
+        "psnr_db": 27.076109429552304,
+        "psnr_db_by_state": [
+          27.076109429552304
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13584921027981506,
+        "reconstruction_output_std": 0.3098329865916498,
+        "residual_coverage": 0.953125,
+        "residual_perplexity": 97.78019743348263
+      }
+    },
+    {
+      "elapsed_seconds": 9.82965040099998,
+      "epoch": 14,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0032013411912196706,
+        "commitment_loss": 0.00092268463498347,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.00092268463498347,
+        "first_stage_error": 0.002278656561676169,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.005230555652475385,
+        "reconstruction_l1": 0.013590993115974365,
+        "reconstruction_loss": 0.0017983699619996353,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0017983699619996353,
+        "residual_norm_loss": 0.0017334453377515844,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.328125,
+        "base_coverage_by_state": [
+          0.328125
+        ],
+        "base_coverage_min": 0.328125,
+        "base_perplexity": 34.23144250489258,
+        "base_perplexity_by_state": [
+          34.23144250489258
+        ],
+        "base_perplexity_min": 34.23144250489258,
+        "mse": 0.0017370145680953046,
+        "mse_by_state": [
+          0.0017370145680953046
+        ],
+        "psnr_db": 27.601965391712827,
+        "psnr_db_by_state": [
+          27.601965391712827
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1314940800880899,
+        "reconstruction_output_std": 0.30455057495686033,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 97.71143003075314
+      }
+    },
+    {
+      "elapsed_seconds": 8.059978432999742,
+      "epoch": 15,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0031396901500454853,
+        "commitment_loss": 0.0008864970167850745,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0008864970167850745,
+        "first_stage_error": 0.002253193132988412,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0050994996112014085,
+        "reconstruction_l1": 0.013355015794459347,
+        "reconstruction_loss": 0.0017380102751907134,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0017380102751907134,
+        "residual_norm_loss": 0.0017493181654130256,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.328125,
+        "base_coverage_by_state": [
+          0.328125
+        ],
+        "base_coverage_min": 0.328125,
+        "base_perplexity": 34.36151245358399,
+        "base_perplexity_by_state": [
+          34.36151245358399
+        ],
+        "base_perplexity_min": 34.36151245358399,
+        "mse": 0.0017604426325583944,
+        "mse_by_state": [
+          0.0017604426325583944
+        ],
+        "psnr_db": 27.543781226922164,
+        "psnr_db_by_state": [
+          27.543781226922164
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13147555180763712,
+        "reconstruction_output_std": 0.30412773744256133,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 97.3998701295904
+      }
+    },
+    {
+      "elapsed_seconds": 8.255403012999977,
+      "epoch": 16,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.003072222950433111,
+        "commitment_loss": 0.0008493331103220094,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0008493331103220094,
+        "first_stage_error": 0.002222889831951149,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004930387179271501,
+        "reconstruction_l1": 0.012933480035444008,
+        "reconstruction_loss": 0.0016456543115428953,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0016456543115428953,
+        "residual_norm_loss": 0.001766763708584672,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.328125,
+        "base_coverage_by_state": [
+          0.328125
+        ],
+        "base_coverage_min": 0.328125,
+        "base_perplexity": 34.483382532715666,
+        "base_perplexity_by_state": [
+          34.483382532715666
+        ],
+        "base_perplexity_min": 34.483382532715666,
+        "mse": 0.0017408109236736688,
+        "mse_by_state": [
+          0.0017408109236736688
+        ],
+        "psnr_db": 27.592483967542535,
+        "psnr_db_by_state": [
+          27.592483967542535
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13300590745575575,
+        "reconstruction_output_std": 0.3067898959041407,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 97.02501852396533
+      }
+    },
+    {
+      "elapsed_seconds": 7.485947483000018,
+      "epoch": 17,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0030141847652043695,
+        "commitment_loss": 0.0008185813845370278,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0008185813845370278,
+        "first_stage_error": 0.00219560338610731,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0048244976891187305,
+        "reconstruction_l1": 0.012775305780434162,
+        "reconstruction_loss": 0.0016054893924341163,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0016054893924341163,
+        "residual_norm_loss": 0.0017818565514138855,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.328125,
+        "base_coverage_by_state": [
+          0.328125
+        ],
+        "base_coverage_min": 0.328125,
+        "base_perplexity": 34.278082430242605,
+        "base_perplexity_by_state": [
+          34.278082430242605
+        ],
+        "base_perplexity_min": 34.278082430242605,
+        "mse": 0.001643946087117098,
+        "mse_by_state": [
+          0.001643946087117098
+        ],
+        "psnr_db": 27.841124291630447,
+        "psnr_db_by_state": [
+          27.841124291630447
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13438377635722257,
+        "reconstruction_output_std": 0.3084750328256416,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 96.51454996377399
+      }
+    },
+    {
+      "elapsed_seconds": 7.7470452349998595,
+      "epoch": 18,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002976584730225955,
+        "commitment_loss": 0.0007954919253798011,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0007954919253798011,
+        "first_stage_error": 0.0021810928037581598,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004739512262918124,
+        "reconstruction_l1": 0.01260190414456285,
+        "reconstruction_loss": 0.0015638746369073045,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0015638746369073045,
+        "residual_norm_loss": 0.0017991653517341224,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.328125,
+        "base_coverage_by_state": [
+          0.328125
+        ],
+        "base_coverage_min": 0.328125,
+        "base_perplexity": 34.33295688137792,
+        "base_perplexity_by_state": [
+          34.33295688137792
+        ],
+        "base_perplexity_min": 34.33295688137792,
+        "mse": 0.0015824440780951052,
+        "mse_by_state": [
+          0.0015824440780951052
+        ],
+        "psnr_db": 28.006716285484202,
+        "psnr_db_by_state": [
+          28.006716285484202
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1336609016262755,
+        "reconstruction_output_std": 0.3078748840031489,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 96.4155094581336
+      }
+    },
+    {
+      "elapsed_seconds": 8.298215740999694,
+      "epoch": 19,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0029403508149052613,
+        "commitment_loss": 0.0007735885819529017,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0007735885819529017,
+        "first_stage_error": 0.002166762233224358,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004656194450298899,
+        "reconstruction_l1": 0.012435563639781185,
+        "reconstruction_loss": 0.0015222654529960355,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0015222654529960355,
+        "residual_norm_loss": 0.0018099088898520465,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3359375,
+        "base_coverage_by_state": [
+          0.3359375
+        ],
+        "base_coverage_min": 0.3359375,
+        "base_perplexity": 34.505225798637625,
+        "base_perplexity_by_state": [
+          34.505225798637625
+        ],
+        "base_perplexity_min": 34.505225798637625,
+        "mse": 0.0015283449017271704,
+        "mse_by_state": [
+          0.0015283449017271704
+        ],
+        "psnr_db": 28.157786274264293,
+        "psnr_db_by_state": [
+          28.157786274264293
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1325198899872449,
+        "reconstruction_output_std": 0.3065227770228842,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 96.23188549051984
+      }
+    },
+    {
+      "elapsed_seconds": 8.718776589999834,
+      "epoch": 20,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0029080553974729973,
+        "commitment_loss": 0.0007545121433539751,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0007545121433539751,
+        "first_stage_error": 0.002153543259286992,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004572173680622723,
+        "reconstruction_l1": 0.012193048929917478,
+        "reconstruction_loss": 0.0014753086627330458,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0014753086627330458,
+        "residual_norm_loss": 0.0018155899738771057,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 34.736101083946586,
+        "base_perplexity_by_state": [
+          34.736101083946586
+        ],
+        "base_perplexity_min": 34.736101083946586,
+        "mse": 0.0014871846724529656,
+        "mse_by_state": [
+          0.0014871846724529656
+        ],
+        "psnr_db": 28.276350992336035,
+        "psnr_db_by_state": [
+          28.276350992336035
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12977700917769452,
+        "reconstruction_output_std": 0.3031498977997104,
+        "residual_coverage": 0.9296875,
+        "residual_perplexity": 95.59165240957263
+      }
+    },
+    {
+      "elapsed_seconds": 8.659183603999736,
+      "epoch": 21,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0028807258322643484,
+        "commitment_loss": 0.00073980077095852,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.00073980077095852,
+        "first_stage_error": 0.0021409250645698093,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004479102239830889,
+        "reconstruction_l1": 0.011902315829332186,
+        "reconstruction_loss": 0.0014132434403236573,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0014132434403236573,
+        "residual_norm_loss": 0.001827458077475916,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 35.00154769213027,
+        "base_perplexity_by_state": [
+          35.00154769213027
+        ],
+        "base_perplexity_min": 35.00154769213027,
+        "mse": 0.001421477422908861,
+        "mse_by_state": [
+          0.001421477422908861
+        ],
+        "psnr_db": 28.472600337462897,
+        "psnr_db_by_state": [
+          28.472600337462897
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1325822958187181,
+        "reconstruction_output_std": 0.30692929903001426,
+        "residual_coverage": 0.9296875,
+        "residual_perplexity": 96.02473630357774
+      }
+    },
+    {
+      "elapsed_seconds": 10.637402837000081,
+      "epoch": 22,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0028547790406324037,
+        "commitment_loss": 0.0007250959382209683,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0007250959382209683,
+        "first_stage_error": 0.0021296831122033784,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004423642594140963,
+        "reconstruction_l1": 0.011758083072882668,
+        "reconstruction_loss": 0.0013874048589093385,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0013874048589093385,
+        "residual_norm_loss": 0.0018473776067154499,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 35.00768048388017,
+        "base_perplexity_by_state": [
+          35.00768048388017
+        ],
+        "base_perplexity_min": 35.00768048388017,
+        "mse": 0.0014208500453404018,
+        "mse_by_state": [
+          0.0014208500453404018
+        ],
+        "psnr_db": 28.474517545268967,
+        "psnr_db_by_state": [
+          28.474517545268967
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12973603465800382,
+        "reconstruction_output_std": 0.30377394873989516,
+        "residual_coverage": 0.9140625,
+        "residual_perplexity": 97.03119452239923
+      }
+    },
+    {
+      "elapsed_seconds": 8.896346648999952,
+      "epoch": 23,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002839647109454898,
+        "commitment_loss": 0.0007112478169886761,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0007112478169886761,
+        "first_stage_error": 0.0021283992960022015,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004355494433439502,
+        "reconstruction_l1": 0.011518889920629351,
+        "reconstruction_loss": 0.0013378480183848433,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0013378480183848433,
+        "residual_norm_loss": 0.001873598671213628,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 34.94861298640143,
+        "base_perplexity_by_state": [
+          34.94861298640143
+        ],
+        "base_perplexity_min": 34.94861298640143,
+        "mse": 0.0014636020699325873,
+        "mse_by_state": [
+          0.0014636020699325873
+        ],
+        "psnr_db": 28.34576984974126,
+        "psnr_db_by_state": [
+          28.34576984974126
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13079247000558036,
+        "reconstruction_output_std": 0.3053325806463975,
+        "residual_coverage": 0.9140625,
+        "residual_perplexity": 96.18843044000936
+      }
+    },
+    {
+      "elapsed_seconds": 8.605328375000227,
+      "epoch": 24,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002834921111962018,
+        "commitment_loss": 0.0007011099943181795,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0007011099943181795,
+        "first_stage_error": 0.0021338111353237355,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004356370551215711,
+        "reconstruction_l1": 0.01159921211460344,
+        "reconstruction_loss": 0.0013459817714179718,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0013459817714179718,
+        "residual_norm_loss": 0.0019019740142981374,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 34.756559020000566,
+        "base_perplexity_by_state": [
+          34.756559020000566
+        ],
+        "base_perplexity_min": 34.756559020000566,
+        "mse": 0.001413618550981794,
+        "mse_by_state": [
+          0.001413618550981794
+        ],
+        "psnr_db": 28.496677641972717,
+        "psnr_db_by_state": [
+          28.496677641972717
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1293167891521843,
+        "reconstruction_output_std": 0.30251838213091575,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 95.54039919010143
+      }
+    },
+    {
+      "elapsed_seconds": 8.542894714999875,
+      "epoch": 25,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0028358516065734567,
+        "commitment_loss": 0.0006952528949504909,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006952528949504909,
+        "first_stage_error": 0.0021405987143429503,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004300396734953066,
+        "reconstruction_l1": 0.011359722801771398,
+        "reconstruction_loss": 0.0012905398730806588,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0012905398730806588,
+        "residual_norm_loss": 0.0019207047227831017,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 34.64968014388109,
+        "base_perplexity_by_state": [
+          34.64968014388109
+        ],
+        "base_perplexity_min": 34.64968014388109,
+        "mse": 0.0013591993604387556,
+        "mse_by_state": [
+          0.0013591993604387556
+        ],
+        "psnr_db": 28.667168384930314,
+        "psnr_db_by_state": [
+          28.667168384930314
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13251731554926657,
+        "reconstruction_output_std": 0.3073154638001691,
+        "residual_coverage": 0.9140625,
+        "residual_perplexity": 95.18655310035979
+      }
+    },
+    {
+      "elapsed_seconds": 8.854810613000154,
+      "epoch": 26,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0028262323401781306,
+        "commitment_loss": 0.0006870875172055909,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006870875172055909,
+        "first_stage_error": 0.0021391448120926027,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004276589074859691,
+        "reconstruction_l1": 0.011300445947726475,
+        "reconstruction_loss": 0.0012783918406805634,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0012783918406805634,
+        "residual_norm_loss": 0.0019297810449813292,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 34.64808985992523,
+        "base_perplexity_by_state": [
+          34.64808985992523
+        ],
+        "base_perplexity_min": 34.64808985992523,
+        "mse": 0.0013243765655828982,
+        "mse_by_state": [
+          0.0013243765655828982
+        ],
+        "psnr_db": 28.779885125530686,
+        "psnr_db_by_state": [
+          28.779885125530686
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13223975506218114,
+        "reconstruction_output_std": 0.307107155705092,
+        "residual_coverage": 0.9140625,
+        "residual_perplexity": 95.59491976515731
+      }
+    },
+    {
+      "elapsed_seconds": 8.982201846999942,
+      "epoch": 27,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002820718636362004,
+        "commitment_loss": 0.0006826696038859783,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006826696038859783,
+        "first_stage_error": 0.0021380490338360177,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.00424590776239252,
+        "reconstruction_l1": 0.01116652650950111,
+        "reconstruction_loss": 0.0012543287811470087,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0012543287811470087,
+        "residual_norm_loss": 0.0019290450939725842,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 34.73314595939925,
+        "base_perplexity_by_state": [
+          34.73314595939925
+        ],
+        "base_perplexity_min": 34.73314595939925,
+        "mse": 0.0015142237682731785,
+        "mse_by_state": [
+          0.0015142237682731785
+        ],
+        "psnr_db": 28.19809941120422,
+        "psnr_db_by_state": [
+          28.19809941120422
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1341874020946269,
+        "reconstruction_output_std": 0.3090073941392454,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 95.16263256816737
+      }
+    },
+    {
+      "elapsed_seconds": 8.495554881000317,
+      "epoch": 28,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0028183659186116726,
+        "commitment_loss": 0.0006806687563418402,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006806687563418402,
+        "first_stage_error": 0.002137697163629824,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004230032333338233,
+        "reconstruction_l1": 0.011132637704679064,
+        "reconstruction_loss": 0.0012413055024536274,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0012413055024536274,
+        "residual_norm_loss": 0.0019374425108457489,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 34.95174250260583,
+        "base_perplexity_by_state": [
+          34.95174250260583
+        ],
+        "base_perplexity_min": 34.95174250260583,
+        "mse": 0.0013268758112070511,
+        "mse_by_state": [
+          0.0013268758112070511
+        ],
+        "psnr_db": 28.771697229768684,
+        "psnr_db_by_state": [
+          28.771697229768684
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1331940394810268,
+        "reconstruction_output_std": 0.3079942235597943,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 94.53576975320209
+      }
+    },
+    {
+      "elapsed_seconds": 8.679985957000099,
+      "epoch": 29,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002810927388632548,
+        "commitment_loss": 0.0006761368656221986,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006761368656221986,
+        "first_stage_error": 0.002134790526546329,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004184055483734636,
+        "reconstruction_l1": 0.010927970873661966,
+        "reconstruction_loss": 0.0012038990715953792,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0012038990715953792,
+        "residual_norm_loss": 0.0019475880637112135,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3359375,
+        "base_coverage_by_state": [
+          0.3359375
+        ],
+        "base_coverage_min": 0.3359375,
+        "base_perplexity": 34.84102131370696,
+        "base_perplexity_by_state": [
+          34.84102131370696
+        ],
+        "base_perplexity_min": 34.84102131370696,
+        "mse": 0.0013013201149142518,
+        "mse_by_state": [
+          0.0013013201149142518
+        ],
+        "psnr_db": 28.85615857135579,
+        "psnr_db_by_state": [
+          28.85615857135579
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1325702168367347,
+        "reconstruction_output_std": 0.3075492743684199,
+        "residual_coverage": 0.9140625,
+        "residual_perplexity": 93.59988567313265
+      }
+    },
+    {
+      "elapsed_seconds": 8.745403704999717,
+      "epoch": 30,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0028095631098601025,
+        "commitment_loss": 0.0006718155699477435,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006718155699477435,
+        "first_stage_error": 0.0021377475420883466,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.00416530908746906,
+        "reconstruction_l1": 0.01083349092715533,
+        "reconstruction_loss": 0.001187596167655331,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.001187596167655331,
+        "residual_norm_loss": 0.001959552566812452,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3359375,
+        "base_coverage_by_state": [
+          0.3359375
+        ],
+        "base_coverage_min": 0.3359375,
+        "base_perplexity": 34.722926321660545,
+        "base_perplexity_by_state": [
+          34.722926321660545
+        ],
+        "base_perplexity_min": 34.722926321660545,
+        "mse": 0.001314839047801738,
+        "mse_by_state": [
+          0.001314839047801738
+        ],
+        "psnr_db": 28.811274068165986,
+        "psnr_db_by_state": [
+          28.811274068165986
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13100183155293368,
+        "reconstruction_output_std": 0.305869850287219,
+        "residual_coverage": 0.9296875,
+        "residual_perplexity": 93.55102387281907
+      }
+    },
+    {
+      "elapsed_seconds": 8.380810422000195,
+      "epoch": 31,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0028090103786160177,
+        "commitment_loss": 0.0006666635745204985,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006666635745204985,
+        "first_stage_error": 0.0021423468155194526,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004133806953415553,
+        "reconstruction_l1": 0.010698700597875309,
+        "reconstruction_loss": 0.0011579329550492569,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0011579329550492569,
+        "residual_norm_loss": 0.0019773129704538906,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 34.71886165051015,
+        "base_perplexity_by_state": [
+          34.71886165051015
+        ],
+        "base_perplexity_min": 34.71886165051015,
+        "mse": 0.0012785158468752492,
+        "mse_by_state": [
+          0.0012785158468752492
+        ],
+        "psnr_db": 28.932938846358276,
+        "psnr_db_by_state": [
+          28.932938846358276
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12899626888352997,
+        "reconstruction_output_std": 0.30350849397292573,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 93.58870711811619
+      }
+    },
+    {
+      "elapsed_seconds": 8.942611362000207,
+      "epoch": 32,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002799335404769213,
+        "commitment_loss": 0.0006613102872098718,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006613102872098718,
+        "first_stage_error": 0.002138025104503417,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0041081484246163445,
+        "reconstruction_l1": 0.010603553524118996,
+        "reconstruction_loss": 0.0011432875947652507,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0011432875947652507,
+        "residual_norm_loss": 0.0019788255101226477,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.34375,
+        "base_coverage_by_state": [
+          0.34375
+        ],
+        "base_coverage_min": 0.34375,
+        "base_perplexity": 35.19030643179332,
+        "base_perplexity_by_state": [
+          35.19030643179332
+        ],
+        "base_perplexity_min": 35.19030643179332,
+        "mse": 0.0012487247505966498,
+        "mse_by_state": [
+          0.0012487247505966498
+        ],
+        "psnr_db": 29.035332801773,
+        "psnr_db_by_state": [
+          29.035332801773
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13222095772879464,
+        "reconstruction_output_std": 0.30752392153533936,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 93.53014166323804
+      }
+    },
+    {
+      "elapsed_seconds": 9.042992612000035,
+      "epoch": 33,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0027723036005779683,
+        "commitment_loss": 0.0006515951144452442,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006515951144452442,
+        "first_stage_error": 0.0021207084918446906,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004050296845532536,
+        "reconstruction_l1": 0.010481966550627324,
+        "reconstruction_loss": 0.0011148984417771904,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0011148984417771904,
+        "residual_norm_loss": 0.001960077433994858,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 35.67030642578494,
+        "base_perplexity_by_state": [
+          35.67030642578494
+        ],
+        "base_perplexity_min": 35.67030642578494,
+        "mse": 0.001272637873279805,
+        "mse_by_state": [
+          0.001272637873279805
+        ],
+        "psnr_db": 28.9529515644815,
+        "psnr_db_by_state": [
+          28.9529515644815
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12856275385642538,
+        "reconstruction_output_std": 0.3026519551932284,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 93.55734079192925
+      }
+    },
+    {
+      "elapsed_seconds": 8.793750738999734,
+      "epoch": 34,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002749161594590851,
+        "commitment_loss": 0.000648751503746591,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.000648751503746591,
+        "first_stage_error": 0.0021004100998202077,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.004004842321014153,
+        "reconstruction_l1": 0.010355477965497803,
+        "reconstruction_loss": 0.001093298202232571,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.001093298202232571,
+        "residual_norm_loss": 0.0019467167853308128,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 36.457545037192745,
+        "base_perplexity_by_state": [
+          36.457545037192745
+        ],
+        "base_perplexity_min": 36.457545037192745,
+        "mse": 0.001208199810495182,
+        "mse_by_state": [
+          0.001208199810495182
+        ],
+        "psnr_db": 29.17861236725161,
+        "psnr_db_by_state": [
+          29.17861236725161
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13259789889588647,
+        "reconstruction_output_std": 0.30739726327973194,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 93.56250849229635
+      }
+    },
+    {
+      "elapsed_seconds": 8.57969151999987,
+      "epoch": 35,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002726077114092621,
+        "commitment_loss": 0.0006428089234368685,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006428089234368685,
+        "first_stage_error": 0.002083268189567759,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003969645493219946,
+        "reconstruction_l1": 0.010286765551699377,
+        "reconstruction_loss": 0.0010826720148390246,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0010826720148390246,
+        "residual_norm_loss": 0.0019414563174794698,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 36.638913989046095,
+        "base_perplexity_by_state": [
+          36.638913989046095
+        ],
+        "base_perplexity_min": 36.638913989046095,
+        "mse": 0.0012133120634117906,
+        "mse_by_state": [
+          0.0012133120634117906
+        ],
+        "psnr_db": 29.160274843869725,
+        "psnr_db_by_state": [
+          29.160274843869725
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1315745906907685,
+        "reconstruction_output_std": 0.3064535231485873,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 93.53614899121966
+      }
+    },
+    {
+      "elapsed_seconds": 8.871267375000116,
+      "epoch": 36,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0027198558738542214,
+        "commitment_loss": 0.0006385182150722281,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006385182150722281,
+        "first_stage_error": 0.002081337672109916,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0039486453790113195,
+        "reconstruction_l1": 0.01021704307940101,
+        "reconstruction_loss": 0.0010689646968504885,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0010689646968504885,
+        "residual_norm_loss": 0.0019522588841495252,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 36.59220638781903,
+        "base_perplexity_by_state": [
+          36.59220638781903
+        ],
+        "base_perplexity_min": 36.59220638781903,
+        "mse": 0.001200846917288644,
+        "mse_by_state": [
+          0.001200846917288644
+        ],
+        "psnr_db": 29.205123524757177,
+        "psnr_db_by_state": [
+          29.205123524757177
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13337049734933035,
+        "reconstruction_output_std": 0.3086492910808893,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 93.30342168956729
+      }
+    },
+    {
+      "elapsed_seconds": 9.072360127000138,
+      "epoch": 37,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002714623715597962,
+        "commitment_loss": 0.0006336969512223188,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006336969512223188,
+        "first_stage_error": 0.002080926755399696,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003916497779661946,
+        "reconstruction_l1": 0.010085169552329265,
+        "reconstruction_loss": 0.0010432533581989218,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0010432533581989218,
+        "residual_norm_loss": 0.001964711639638468,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 36.72317827560551,
+        "base_perplexity_by_state": [
+          36.72317827560551
+        ],
+        "base_perplexity_min": 36.72317827560551,
+        "mse": 0.0011385274809233997,
+        "mse_by_state": [
+          0.0011385274809233997
+        ],
+        "psnr_db": 29.43656482247475,
+        "psnr_db_by_state": [
+          29.43656482247475
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12969342962771047,
+        "reconstruction_output_std": 0.30440825778893504,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 92.96090205378815
+      }
+    },
+    {
+      "elapsed_seconds": 8.776717991000169,
+      "epoch": 38,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0027114984864438666,
+        "commitment_loss": 0.0006290935510312529,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006290935510312529,
+        "first_stage_error": 0.0020824049373166027,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003886816889334853,
+        "reconstruction_l1": 0.009937794343785984,
+        "reconstruction_loss": 0.0010178473394007257,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0010178473394007257,
+        "residual_norm_loss": 0.001976750274275856,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 36.803429569324535,
+        "base_perplexity_by_state": [
+          36.803429569324535
+        ],
+        "base_perplexity_min": 36.803429569324535,
+        "mse": 0.0011799749316001426,
+        "mse_by_state": [
+          0.0011799749316001426
+        ],
+        "psnr_db": 29.28127219120463,
+        "psnr_db_by_state": [
+          29.28127219120463
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13202613201530614,
+        "reconstruction_output_std": 0.3072457426677061,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 92.67386870662023
+      }
+    },
+    {
+      "elapsed_seconds": 8.289244278999831,
+      "epoch": 39,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002717131996858064,
+        "commitment_loss": 0.0006268828504536057,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006268828504536057,
+        "first_stage_error": 0.0020902491431404775,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003894703531263518,
+        "reconstruction_l1": 0.009985384966516606,
+        "reconstruction_loss": 0.001020652292868575,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.001020652292868575,
+        "residual_norm_loss": 0.0019853254181776787,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 36.81498356979607,
+        "base_perplexity_by_state": [
+          36.81498356979607
+        ],
+        "base_perplexity_min": 36.81498356979607,
+        "mse": 0.001157577201298305,
+        "mse_by_state": [
+          0.001157577201298305
+        ],
+        "psnr_db": 29.36450035316666,
+        "psnr_db_by_state": [
+          29.36450035316666
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12928854507134885,
+        "reconstruction_output_std": 0.30395829013998443,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 92.26012365979658
+      }
+    },
+    {
+      "elapsed_seconds": 8.923682846999782,
+      "epoch": 40,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0027154916919175987,
+        "commitment_loss": 0.000623044657148856,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.000623044657148856,
+        "first_stage_error": 0.0020924470339527476,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003857227588490209,
+        "reconstruction_l1": 0.00980837942997568,
+        "reconstruction_loss": 0.0009857757611604948,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0009857757611604948,
+        "residual_norm_loss": 0.0019899053220576216,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 37.03450693481707,
+        "base_perplexity_by_state": [
+          37.03450693481707
+        ],
+        "base_perplexity_min": 37.03450693481707,
+        "mse": 0.0011311142142938107,
+        "mse_by_state": [
+          0.0011311142142938107
+        ],
+        "psnr_db": 29.46493539961231,
+        "psnr_db_by_state": [
+          29.46493539961231
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12928264209980866,
+        "reconstruction_output_std": 0.30428591350545153,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 92.48078563070852
+      }
+    },
+    {
+      "elapsed_seconds": 8.972791929999858,
+      "epoch": 41,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002712988555779524,
+        "commitment_loss": 0.0006187190010678023,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006187190010678023,
+        "first_stage_error": 0.0020942695560717136,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0038452391245045532,
+        "reconstruction_l1": 0.009783016495998496,
+        "reconstruction_loss": 0.0009773713721519459,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0009773713721519459,
+        "residual_norm_loss": 0.0019945404307359707,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 37.153784735388086,
+        "base_perplexity_by_state": [
+          37.153784735388086
+        ],
+        "base_perplexity_min": 37.153784735388086,
+        "mse": 0.0011275966546973404,
+        "mse_by_state": [
+          0.0011275966546973404
+        ],
+        "psnr_db": 29.478462212437133,
+        "psnr_db_by_state": [
+          29.478462212437133
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1308620889469069,
+        "reconstruction_output_std": 0.30616621578913944,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 92.4770167865861
+      }
+    },
+    {
+      "elapsed_seconds": 12.260973367000133,
+      "epoch": 42,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0027159651073357352,
+        "commitment_loss": 0.0006169605751034465,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006169605751034465,
+        "first_stage_error": 0.002099004540392241,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003823692011690446,
+        "reconstruction_l1": 0.009637762809816364,
+        "reconstruction_loss": 0.0009532865984408864,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0009532865984408864,
+        "residual_norm_loss": 0.002001884218227014,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 37.2964949870757,
+        "base_perplexity_by_state": [
+          37.2964949870757
+        ],
+        "base_perplexity_min": 37.2964949870757,
+        "mse": 0.001100958913686324,
+        "mse_by_state": [
+          0.001100958913686324
+        ],
+        "psnr_db": 29.582288880148568,
+        "psnr_db_by_state": [
+          29.582288880148568
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12963105518574616,
+        "reconstruction_output_std": 0.30420046592660965,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 92.29585489886352
+      }
+    },
+    {
+      "elapsed_seconds": 8.69088363999981,
+      "epoch": 43,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002717310227627788,
+        "commitment_loss": 0.0006151986049997368,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006151986049997368,
+        "first_stage_error": 0.002102111617460081,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0038229113207503317,
+        "reconstruction_l1": 0.009617044512078027,
+        "reconstruction_loss": 0.0009516008240693013,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0009516008240693013,
+        "residual_norm_loss": 0.0020060948080983815,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 37.55247596369403,
+        "base_perplexity_by_state": [
+          37.55247596369403
+        ],
+        "base_perplexity_min": 37.55247596369403,
+        "mse": 0.0011047900569682218,
+        "mse_by_state": [
+          0.0011047900569682218
+        ],
+        "psnr_db": 29.56720243031223,
+        "psnr_db_by_state": [
+          29.56720243031223
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1327968241788903,
+        "reconstruction_output_std": 0.3090142507701037,
+        "residual_coverage": 0.9296875,
+        "residual_perplexity": 91.92023264688615
+      }
+    },
+    {
+      "elapsed_seconds": 8.79067457500014,
+      "epoch": 44,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0027159291643771193,
+        "commitment_loss": 0.0006149446354552268,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006149446354552268,
+        "first_stage_error": 0.002100984522393931,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003794333625532617,
+        "reconstruction_l1": 0.009459104397656204,
+        "reconstruction_loss": 0.000924467118935677,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.000924467118935677,
+        "residual_norm_loss": 0.0020116999131740533,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 37.680688587543855,
+        "base_perplexity_by_state": [
+          37.680688587543855
+        ],
+        "base_perplexity_min": 37.680688587543855,
+        "mse": 0.0010789408781090562,
+        "mse_by_state": [
+          0.0010789408781090562
+        ],
+        "psnr_db": 29.670023523647874,
+        "psnr_db_by_state": [
+          29.670023523647874
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13167419682716835,
+        "reconstruction_output_std": 0.30744719117173214,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 90.83267642535046
+      }
+    },
+    {
+      "elapsed_seconds": 8.214301837999756,
+      "epoch": 45,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0027028162817897224,
+        "commitment_loss": 0.0006119370877755823,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006119370877755823,
+        "first_stage_error": 0.0020908792046220783,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0037864103552093294,
+        "reconstruction_l1": 0.00949039769350229,
+        "reconstruction_loss": 0.0009304084439727121,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0009304084439727121,
+        "residual_norm_loss": 0.0020134939918747155,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 37.660825272213124,
+        "base_perplexity_by_state": [
+          37.660825272213124
+        ],
+        "base_perplexity_min": 37.660825272213124,
+        "mse": 0.0010716015990899534,
+        "mse_by_state": [
+          0.0010716015990899534
+        ],
+        "psnr_db": 29.699666469904574,
+        "psnr_db_by_state": [
+          29.699666469904574
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13028025550063776,
+        "reconstruction_output_std": 0.30567915712489857,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 90.84633770990061
+      }
+    },
+    {
+      "elapsed_seconds": 9.681860274999963,
+      "epoch": 46,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026994204642599292,
+        "commitment_loss": 0.0006086327574568339,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006086327574568339,
+        "first_stage_error": 0.0020907877043551096,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003764101197490486,
+        "reconstruction_l1": 0.009416959122275916,
+        "reconstruction_loss": 0.0009123214874655948,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0009123214874655948,
+        "residual_norm_loss": 0.0020104160893569204,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 37.56692356739389,
+        "base_perplexity_by_state": [
+          37.56692356739389
+        ],
+        "base_perplexity_min": 37.56692356739389,
+        "mse": 0.0010392821448189872,
+        "mse_by_state": [
+          0.0010392821448189872
+        ],
+        "psnr_db": 29.83266533959962,
+        "psnr_db_by_state": [
+          29.83266533959962
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13123348961654974,
+        "reconstruction_output_std": 0.30680556070965825,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 90.63348918863271
+      }
+    },
+    {
+      "elapsed_seconds": 8.555744754999978,
+      "epoch": 47,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002696638170708075,
+        "commitment_loss": 0.0006055339154130213,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006055339154130213,
+        "first_stage_error": 0.0020911042582870366,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0037495508772608277,
+        "reconstruction_l1": 0.009354563329856251,
+        "reconstruction_loss": 0.0009013280412835008,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0009013280412835008,
+        "residual_norm_loss": 0.002011867347782669,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 37.64258751699695,
+        "base_perplexity_by_state": [
+          37.64258751699695
+        ],
+        "base_perplexity_min": 37.64258751699695,
+        "mse": 0.0010586605714291942,
+        "mse_by_state": [
+          0.0010586605714291942
+        ],
+        "psnr_db": 29.7524326140757,
+        "psnr_db_by_state": [
+          29.7524326140757
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1309522590481505,
+        "reconstruction_output_std": 0.3056957352730864,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 90.69800070461541
+      }
+    },
+    {
+      "elapsed_seconds": 8.84329618699985,
+      "epoch": 48,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002696362683096918,
+        "commitment_loss": 0.0006046572895437723,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006046572895437723,
+        "first_stage_error": 0.0020917053987211157,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003725136126496037,
+        "reconstruction_l1": 0.00922648558201634,
+        "reconstruction_loss": 0.0008774082547393149,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0008774082547393149,
+        "residual_norm_loss": 0.0020087405138379225,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 37.89918362904108,
+        "base_perplexity_by_state": [
+          37.89918362904108
+        ],
+        "base_perplexity_min": 37.89918362904108,
+        "mse": 0.001041247675370197,
+        "mse_by_state": [
+          0.001041247675370197
+        ],
+        "psnr_db": 29.8244595516501,
+        "psnr_db_by_state": [
+          29.8244595516501
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13100632274394133,
+        "reconstruction_output_std": 0.3060332840137309,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 90.6881141743795
+      }
+    },
+    {
+      "elapsed_seconds": 9.43323617599981,
+      "epoch": 49,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002688964043317415,
+        "commitment_loss": 0.00060418072003201,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.00060418072003201,
+        "first_stage_error": 0.0020847833262773873,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003708796312371008,
+        "reconstruction_l1": 0.009141630706351215,
+        "reconstruction_loss": 0.0008685868309601863,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0008685868309601863,
+        "residual_norm_loss": 0.002002649359561712,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 38.02395874351066,
+        "base_perplexity_by_state": [
+          38.02395874351066
+        ],
+        "base_perplexity_min": 38.02395874351066,
+        "mse": 0.0010279792532628897,
+        "mse_by_state": [
+          0.0010279792532628897
+        ],
+        "psnr_db": 29.880156502088035,
+        "psnr_db_by_state": [
+          29.880156502088035
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13031675477319835,
+        "reconstruction_output_std": 0.30564140019903135,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 90.84469573526249
+      }
+    },
+    {
+      "elapsed_seconds": 9.097197539000263,
+      "epoch": 50,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026866223121270816,
+        "commitment_loss": 0.0006033090249500368,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006033090249500368,
+        "first_stage_error": 0.0020833132727611286,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0037086745354164147,
+        "reconstruction_l1": 0.009148339632132622,
+        "reconstruction_loss": 0.0008710247883899572,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0008710247883899572,
+        "residual_norm_loss": 0.0020015920310011395,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 38.018765805469606,
+        "base_perplexity_by_state": [
+          38.018765805469606
+        ],
+        "base_perplexity_min": 38.018765805469606,
+        "mse": 0.0011142529487609863,
+        "mse_by_state": [
+          0.0011142529487609863
+        ],
+        "psnr_db": 29.530162079225754,
+        "psnr_db_by_state": [
+          29.530162079225754
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13038080033282845,
+        "reconstruction_output_std": 0.30565956208287176,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 90.85782933536842
+      }
+    },
+    {
+      "elapsed_seconds": 8.835057613000117,
+      "epoch": 51,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026919678414989018,
+        "commitment_loss": 0.0006032487487411736,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006032487487411736,
+        "first_stage_error": 0.0020887191009176806,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0037028003673321595,
+        "reconstruction_l1": 0.009101137914912445,
+        "reconstruction_loss": 0.0008598196039533364,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0008598196039533364,
+        "residual_norm_loss": 0.0020073310452487286,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3515625,
+        "base_coverage_by_state": [
+          0.3515625
+        ],
+        "base_coverage_min": 0.3515625,
+        "base_perplexity": 38.06899182838754,
+        "base_perplexity_by_state": [
+          38.06899182838754
+        ],
+        "base_perplexity_min": 38.06899182838754,
+        "mse": 0.0010896292939478038,
+        "mse_by_state": [
+          0.0010896292939478038
+        ],
+        "psnr_db": 29.627212295604487,
+        "psnr_db_by_state": [
+          29.627212295604487
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12868083022759885,
+        "reconstruction_output_std": 0.3039728300949311,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 90.59452017740561
+      }
+    },
+    {
+      "elapsed_seconds": 9.091250154000136,
+      "epoch": 52,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026951526872657033,
+        "commitment_loss": 0.0006028120852049405,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006028120852049405,
+        "first_stage_error": 0.0020923405955328004,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.00367411806152385,
+        "reconstruction_l1": 0.008928640780395994,
+        "reconstruction_loss": 0.0008280609348662651,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0008280609348662651,
+        "residual_norm_loss": 0.002014247766939627,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.359375,
+        "base_coverage_by_state": [
+          0.359375
+        ],
+        "base_coverage_min": 0.359375,
+        "base_perplexity": 38.30358572949816,
+        "base_perplexity_by_state": [
+          38.30358572949816
+        ],
+        "base_perplexity_min": 38.30358572949816,
+        "mse": 0.0010302612051671866,
+        "mse_by_state": [
+          0.0010302612051671866
+        ],
+        "psnr_db": 29.87052653371378,
+        "psnr_db_by_state": [
+          29.87052653371378
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12926797722018496,
+        "reconstruction_output_std": 0.30468482979996875,
+        "residual_coverage": 0.921875,
+        "residual_perplexity": 90.59586387188843
+      }
+    },
+    {
+      "elapsed_seconds": 9.12103887100011,
+      "epoch": 53,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002697976541087449,
+        "commitment_loss": 0.0006026340820978909,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0006026340820978909,
+        "first_stage_error": 0.0020953424668775124,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0036743081786243296,
+        "reconstruction_l1": 0.008900639779482768,
+        "reconstruction_loss": 0.000825471208032621,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.000825471208032621,
+        "residual_norm_loss": 0.002018971139103801,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.359375,
+        "base_coverage_by_state": [
+          0.359375
+        ],
+        "base_coverage_min": 0.359375,
+        "base_perplexity": 38.814760698536666,
+        "base_perplexity_by_state": [
+          38.814760698536666
+        ],
+        "base_perplexity_min": 38.814760698536666,
+        "mse": 0.0010109444715538803,
+        "mse_by_state": [
+          0.0010109444715538803
+        ],
+        "psnr_db": 29.952726983754,
+        "psnr_db_by_state": [
+          29.952726983754
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13144178691007652,
+        "reconstruction_output_std": 0.3074266345259298,
+        "residual_coverage": 0.9296875,
+        "residual_perplexity": 90.32625370835893
+      }
+    },
+    {
+      "elapsed_seconds": 8.816655602000083,
+      "epoch": 54,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026744641146022024,
+        "commitment_loss": 0.0005966907994882595,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005966907994882595,
+        "first_stage_error": 0.0020777733178339274,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003647112803289963,
+        "reconstruction_l1": 0.008859866150768003,
+        "reconstruction_loss": 0.0008232767038726221,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0008232767038726221,
+        "residual_norm_loss": 0.00199275228268876,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.359375,
+        "base_coverage_by_state": [
+          0.359375
+        ],
+        "base_coverage_min": 0.359375,
+        "base_perplexity": 39.27821583629968,
+        "base_perplexity_by_state": [
+          39.27821583629968
+        ],
+        "base_perplexity_min": 39.27821583629968,
+        "mse": 0.0010236844977554009,
+        "mse_by_state": [
+          0.0010236844977554009
+        ],
+        "psnr_db": 29.898338734351746,
+        "psnr_db_by_state": [
+          29.898338734351746
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1329642259247449,
+        "reconstruction_output_std": 0.3087473273486921,
+        "residual_coverage": 0.9296875,
+        "residual_perplexity": 89.88659259406276
+      }
+    },
+    {
+      "elapsed_seconds": 8.988215524000225,
+      "epoch": 55,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002665043481033748,
+        "commitment_loss": 0.0005958899447616085,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005958899447616085,
+        "first_stage_error": 0.002069153529200181,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003629445292003383,
+        "reconstruction_l1": 0.008837516023559826,
+        "reconstruction_loss": 0.0008152305631611113,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0008152305631611113,
+        "residual_norm_loss": 0.0019876452981033056,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3671875,
+        "base_coverage_by_state": [
+          0.3671875
+        ],
+        "base_coverage_min": 0.3671875,
+        "base_perplexity": 39.59466518834384,
+        "base_perplexity_by_state": [
+          39.59466518834384
+        ],
+        "base_perplexity_min": 39.59466518834384,
+        "mse": 0.0010549713582408671,
+        "mse_by_state": [
+          0.0010549713582408671
+        ],
+        "psnr_db": 29.76759331007802,
+        "psnr_db_by_state": [
+          29.76759331007802
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13283026546556123,
+        "reconstruction_output_std": 0.30911796346829273,
+        "residual_coverage": 0.9296875,
+        "residual_perplexity": 90.14456046534059
+      }
+    },
+    {
+      "elapsed_seconds": 9.253454018999946,
+      "epoch": 56,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002659866608087426,
+        "commitment_loss": 0.000592264024188272,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.000592264024188272,
+        "first_stage_error": 0.0020676025822671637,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0036063675657698065,
+        "reconstruction_l1": 0.00875383466221044,
+        "reconstruction_loss": 0.0007982372173552062,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0007982372173552062,
+        "residual_norm_loss": 0.001977350814137434,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3671875,
+        "base_coverage_by_state": [
+          0.3671875
+        ],
+        "base_coverage_min": 0.3671875,
+        "base_perplexity": 39.76370176827155,
+        "base_perplexity_by_state": [
+          39.76370176827155
+        ],
+        "base_perplexity_min": 39.76370176827155,
+        "mse": 0.0010177232625533123,
+        "mse_by_state": [
+          0.0010177232625533123
+        ],
+        "psnr_db": 29.923702985069895,
+        "psnr_db_by_state": [
+          29.923702985069895
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12906605573381696,
+        "reconstruction_output_std": 0.3051102973671189,
+        "residual_coverage": 0.9296875,
+        "residual_perplexity": 90.36606571624498
+      }
+    },
+    {
+      "elapsed_seconds": 8.550906383999973,
+      "epoch": 57,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026576181331858318,
+        "commitment_loss": 0.000590359526914849,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.000590359526914849,
+        "first_stage_error": 0.0020672585989270254,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0035861434619525604,
+        "reconstruction_l1": 0.008663137217060985,
+        "reconstruction_loss": 0.0007807382830705877,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0007807382830705877,
+        "residual_norm_loss": 0.0019715157735692426,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3671875,
+        "base_coverage_by_state": [
+          0.3671875
+        ],
+        "base_coverage_min": 0.3671875,
+        "base_perplexity": 39.94923629920236,
+        "base_perplexity_by_state": [
+          39.94923629920236
+        ],
+        "base_perplexity_min": 39.94923629920236,
+        "mse": 0.0010057844882108728,
+        "mse_by_state": [
+          0.0010057844882108728
+        ],
+        "psnr_db": 29.974950666037085,
+        "psnr_db_by_state": [
+          29.974950666037085
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13228360745176976,
+        "reconstruction_output_std": 0.30862751266106736,
+        "residual_coverage": 0.9296875,
+        "residual_perplexity": 90.40401656245642
+      }
+    },
+    {
+      "elapsed_seconds": 8.748087170999952,
+      "epoch": 58,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026561654157605825,
+        "commitment_loss": 0.0005881381890231692,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005881381890231692,
+        "first_stage_error": 0.002068027218577461,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0035659897502372476,
+        "reconstruction_l1": 0.00856277593803183,
+        "reconstruction_loss": 0.0007625922139638286,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0007625922139638286,
+        "residual_norm_loss": 0.0019758294105843128,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3671875,
+        "base_coverage_by_state": [
+          0.3671875
+        ],
+        "base_coverage_min": 0.3671875,
+        "base_perplexity": 39.977156424915876,
+        "base_perplexity_by_state": [
+          39.977156424915876
+        ],
+        "base_perplexity_min": 39.977156424915876,
+        "mse": 0.0009662045264730648,
+        "mse_by_state": [
+          0.0009662045264730648
+        ],
+        "psnr_db": 30.149309322627985,
+        "psnr_db_by_state": [
+          30.149309322627985
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1305942589584662,
+        "reconstruction_output_std": 0.3062998277519134,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 91.06032075707094
+      }
+    },
+    {
+      "elapsed_seconds": 8.960464976999901,
+      "epoch": 59,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026553166468810535,
+        "commitment_loss": 0.0005861040388090345,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005861040388090345,
+        "first_stage_error": 0.0020692126105200047,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0035448748178814895,
+        "reconstruction_l1": 0.008457045384169182,
+        "reconstruction_loss": 0.0007428335388752449,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0007428335388752449,
+        "residual_norm_loss": 0.001986312695178334,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3671875,
+        "base_coverage_by_state": [
+          0.3671875
+        ],
+        "base_coverage_min": 0.3671875,
+        "base_perplexity": 39.94918939526508,
+        "base_perplexity_by_state": [
+          39.94918939526508
+        ],
+        "base_perplexity_min": 39.94918939526508,
+        "mse": 0.0009835149687163684,
+        "mse_by_state": [
+          0.0009835149687163684
+        ],
+        "psnr_db": 30.07219025900771,
+        "psnr_db_by_state": [
+          30.07219025900771
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1300337646484375,
+        "reconstruction_output_std": 0.3063479312357643,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 91.09195082258466
+      }
+    },
+    {
+      "elapsed_seconds": 9.030588408999847,
+      "epoch": 60,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026555984753192726,
+        "commitment_loss": 0.0005843986000400037,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005843986000400037,
+        "first_stage_error": 0.002071199863583337,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0035375255425504157,
+        "reconstruction_l1": 0.00841239272729955,
+        "reconstruction_loss": 0.0007356280593144943,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0007356280593144943,
+        "residual_norm_loss": 0.0019937345135748108,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3671875,
+        "base_coverage_by_state": [
+          0.3671875
+        ],
+        "base_coverage_min": 0.3671875,
+        "base_perplexity": 40.02047033559483,
+        "base_perplexity_by_state": [
+          40.02047033559483
+        ],
+        "base_perplexity_min": 40.02047033559483,
+        "mse": 0.0010182826139488999,
+        "mse_by_state": [
+          0.0010182826139488999
+        ],
+        "psnr_db": 29.921316712677815,
+        "psnr_db_by_state": [
+          29.921316712677815
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1306510007274394,
+        "reconstruction_output_std": 0.30643157007745914,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 91.50902898057909
+      }
+    },
+    {
+      "elapsed_seconds": 8.456088988999909,
+      "epoch": 61,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026571102599204284,
+        "commitment_loss": 0.0005830801437526211,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005830801437526211,
+        "first_stage_error": 0.002074030118071796,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0035235120286016123,
+        "reconstruction_l1": 0.0083329805486322,
+        "reconstruction_loss": 0.0007204317716798946,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0007204317716798946,
+        "residual_norm_loss": 0.0019995654469669283,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3671875,
+        "base_coverage_by_state": [
+          0.3671875
+        ],
+        "base_coverage_min": 0.3671875,
+        "base_perplexity": 40.15910281587689,
+        "base_perplexity_by_state": [
+          40.15910281587689
+        ],
+        "base_perplexity_min": 40.15910281587689,
+        "mse": 0.0010027393224288006,
+        "mse_by_state": [
+          0.0010027393224288006
+        ],
+        "psnr_db": 29.98811953863834,
+        "psnr_db_by_state": [
+          29.98811953863834
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13280962536870217,
+        "reconstruction_output_std": 0.3091613314079183,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 91.57539782302001
+      }
+    },
+    {
+      "elapsed_seconds": 8.150138534000234,
+      "epoch": 62,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002655398158278212,
+        "commitment_loss": 0.0005815720705698445,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005815720705698445,
+        "first_stage_error": 0.0020738260844443863,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003511811312827691,
+        "reconstruction_l1": 0.008275504637439953,
+        "reconstruction_loss": 0.0007108204810941052,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0007108204810941052,
+        "residual_norm_loss": 0.0019966873838609765,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3671875,
+        "base_coverage_by_state": [
+          0.3671875
+        ],
+        "base_coverage_min": 0.3671875,
+        "base_perplexity": 40.22125010449767,
+        "base_perplexity_by_state": [
+          40.22125010449767
+        ],
+        "base_perplexity_min": 40.22125010449767,
+        "mse": 0.0010038636849851025,
+        "mse_by_state": [
+          0.0010038636849851025
+        ],
+        "psnr_db": 29.98325256193033,
+        "psnr_db_by_state": [
+          29.98325256193033
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1311432896205357,
+        "reconstruction_output_std": 0.30646820069872377,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 91.64512990319426
+      }
+    },
+    {
+      "elapsed_seconds": 8.34968707400003,
+      "epoch": 63,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002652839918525141,
+        "commitment_loss": 0.0005799553854277827,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005799553854277827,
+        "first_stage_error": 0.0020728845325533613,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0035075167276696346,
+        "reconstruction_l1": 0.008264835538760385,
+        "reconstruction_loss": 0.0007094886604365762,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0007094886604365762,
+        "residual_norm_loss": 0.001993003929094803,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3671875,
+        "base_coverage_by_state": [
+          0.3671875
+        ],
+        "base_coverage_min": 0.3671875,
+        "base_perplexity": 40.23605634670284,
+        "base_perplexity_by_state": [
+          40.23605634670284
+        ],
+        "base_perplexity_min": 40.23605634670284,
+        "mse": 0.000990957073289521,
+        "mse_by_state": [
+          0.000990957073289521
+        ],
+        "psnr_db": 30.039451580649473,
+        "psnr_db_by_state": [
+          30.039451580649473
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13296286920041453,
+        "reconstruction_output_std": 0.30961933868968144,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 91.85234131627237
+      }
+    },
+    {
+      "elapsed_seconds": 8.217396705999818,
+      "epoch": 64,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026515179605301575,
+        "commitment_loss": 0.0005787847670791757,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005787847670791757,
+        "first_stage_error": 0.002072733175227088,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0034918565908011712,
+        "reconstruction_l1": 0.008198161611646831,
+        "reconstruction_loss": 0.0006954433789768334,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006954433789768334,
+        "residual_norm_loss": 0.0019905885842533035,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3671875,
+        "base_coverage_by_state": [
+          0.3671875
+        ],
+        "base_coverage_min": 0.3671875,
+        "base_perplexity": 40.27096041514306,
+        "base_perplexity_by_state": [
+          40.27096041514306
+        ],
+        "base_perplexity_min": 40.27096041514306,
+        "mse": 0.0009610307459928551,
+        "mse_by_state": [
+          0.0009610307459928551
+        ],
+        "psnr_db": 30.17262717845046,
+        "psnr_db_by_state": [
+          30.17262717845046
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1303068020567602,
+        "reconstruction_output_std": 0.30579867651382403,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 91.6914774656663
+      }
+    },
+    {
+      "elapsed_seconds": 8.178373957000076,
+      "epoch": 65,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002650698420600356,
+        "commitment_loss": 0.0005775477476613857,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005775477476613857,
+        "first_stage_error": 0.00207315066450702,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003476002263383957,
+        "reconstruction_l1": 0.00809177883387169,
+        "reconstruction_loss": 0.0006807180821664945,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006807180821664945,
+        "residual_norm_loss": 0.0019880944077430344,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.375,
+        "base_coverage_by_state": [
+          0.375
+        ],
+        "base_coverage_min": 0.375,
+        "base_perplexity": 40.32315089830762,
+        "base_perplexity_by_state": [
+          40.32315089830762
+        ],
+        "base_perplexity_min": 40.32315089830762,
+        "mse": 0.0009537582047131597,
+        "mse_by_state": [
+          0.0009537582047131597
+        ],
+        "psnr_db": 30.205617129989776,
+        "psnr_db_by_state": [
+          30.205617129989776
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13144180933115435,
+        "reconstruction_output_std": 0.3079569045444954,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 91.81592676711033
+      }
+    },
+    {
+      "elapsed_seconds": 8.483301442000084,
+      "epoch": 66,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026472031745937803,
+        "commitment_loss": 0.0005761227901224221,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005761227901224221,
+        "first_stage_error": 0.002071080388823333,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003469016852301206,
+        "reconstruction_l1": 0.008068090082781615,
+        "reconstruction_loss": 0.0006775845557007346,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006775845557007346,
+        "residual_norm_loss": 0.0019841891197731423,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.375,
+        "base_coverage_by_state": [
+          0.375
+        ],
+        "base_coverage_min": 0.375,
+        "base_perplexity": 40.76061300122851,
+        "base_perplexity_by_state": [
+          40.76061300122851
+        ],
+        "base_perplexity_min": 40.76061300122851,
+        "mse": 0.000987870691260513,
+        "mse_by_state": [
+          0.000987870691260513
+        ],
+        "psnr_db": 30.05299899286163,
+        "psnr_db_by_state": [
+          30.05299899286163
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13205605070153062,
+        "reconstruction_output_std": 0.30820927094221984,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 91.82218977815887
+      }
+    },
+    {
+      "elapsed_seconds": 8.477773752999838,
+      "epoch": 67,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0026318808706372837,
+        "commitment_loss": 0.0005719469058888782,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005719469058888782,
+        "first_stage_error": 0.0020599339633884137,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0034509438566567604,
+        "reconstruction_l1": 0.008052611266584875,
+        "reconstruction_loss": 0.000675879814879638,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.000675879814879638,
+        "residual_norm_loss": 0.0019645834718091046,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.375,
+        "base_coverage_by_state": [
+          0.375
+        ],
+        "base_coverage_min": 0.375,
+        "base_perplexity": 40.91898882544166,
+        "base_perplexity_by_state": [
+          40.91898882544166
+        ],
+        "base_perplexity_min": 40.91898882544166,
+        "mse": 0.0009618277608131876,
+        "mse_by_state": [
+          0.0009618277608131876
+        ],
+        "psnr_db": 30.169026922299906,
+        "psnr_db_by_state": [
+          30.169026922299906
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13146232810507016,
+        "reconstruction_output_std": 0.30717893907165655,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 92.03422037174985
+      }
+    },
+    {
+      "elapsed_seconds": 8.78794954299974,
+      "epoch": 68,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002627702161156198,
+        "commitment_loss": 0.0005701757196628567,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005701757196628567,
+        "first_stage_error": 0.0020575264390453557,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.00343081074718943,
+        "reconstruction_l1": 0.007948930645100424,
+        "reconstruction_loss": 0.0006603684948722475,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006603684948722475,
+        "residual_norm_loss": 0.0019616389584022564,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.375,
+        "base_coverage_by_state": [
+          0.375
+        ],
+        "base_coverage_min": 0.375,
+        "base_perplexity": 41.0187875820812,
+        "base_perplexity_by_state": [
+          41.0187875820812
+        ],
+        "base_perplexity_min": 41.0187875820812,
+        "mse": 0.0009640155753310846,
+        "mse_by_state": [
+          0.0009640155753310846
+        ],
+        "psnr_db": 30.159159492655313,
+        "psnr_db_by_state": [
+          30.159159492655313
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13090267707669004,
+        "reconstruction_output_std": 0.3071983586525504,
+        "residual_coverage": 0.9375,
+        "residual_perplexity": 92.16026961719922
+      }
+    },
+    {
+      "elapsed_seconds": 8.690553851999994,
+      "epoch": 69,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002621362364424445,
+        "commitment_loss": 0.0005667057975247572,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005667057975247572,
+        "first_stage_error": 0.0020546565598277286,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0034294141658851615,
+        "reconstruction_l1": 0.007977609448657136,
+        "reconstruction_loss": 0.0006661779746613422,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006661779746613422,
+        "residual_norm_loss": 0.001973809423055674,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3828125,
+        "base_coverage_by_state": [
+          0.3828125
+        ],
+        "base_coverage_min": 0.3828125,
+        "base_perplexity": 41.22977490266447,
+        "base_perplexity_by_state": [
+          41.22977490266447
+        ],
+        "base_perplexity_min": 41.22977490266447,
+        "mse": 0.0009951273937614596,
+        "mse_by_state": [
+          0.0009951273937614596
+        ],
+        "psnr_db": 30.021213183838178,
+        "psnr_db_by_state": [
+          30.021213183838178
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12939097476881378,
+        "reconstruction_output_std": 0.3047734531310704,
+        "residual_coverage": 0.96875,
+        "residual_perplexity": 93.99024372935659
+      }
+    },
+    {
+      "elapsed_seconds": 9.12728530000004,
+      "epoch": 70,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002600069331858203,
+        "commitment_loss": 0.000559701728166699,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.000559701728166699,
+        "first_stage_error": 0.0020403675974355402,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003406087852683719,
+        "reconstruction_l1": 0.007988394381669916,
+        "reconstruction_loss": 0.0006658944407930581,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006658944407930581,
+        "residual_norm_loss": 0.0019864903427834544,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.390625,
+        "base_coverage_by_state": [
+          0.390625
+        ],
+        "base_coverage_min": 0.390625,
+        "base_perplexity": 41.97365938096609,
+        "base_perplexity_by_state": [
+          41.97365938096609
+        ],
+        "base_perplexity_min": 41.97365938096609,
+        "mse": 0.0009194629046381736,
+        "mse_by_state": [
+          0.0009194629046381736
+        ],
+        "psnr_db": 30.364657875090174,
+        "psnr_db_by_state": [
+          30.364657875090174
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13170829081632654,
+        "reconstruction_output_std": 0.30828660998962687,
+        "residual_coverage": 0.96875,
+        "residual_perplexity": 94.75275028169958
+      }
+    },
+    {
+      "elapsed_seconds": 9.13863504999972,
+      "epoch": 71,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002584378805150774,
+        "commitment_loss": 0.0005560622601682825,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005560622601682825,
+        "first_stage_error": 0.0020283165509664565,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0033907900666643944,
+        "reconstruction_l1": 0.007985762981959035,
+        "reconstruction_loss": 0.0006671983843329841,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006671983843329841,
+        "residual_norm_loss": 0.001973190232806743,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.390625,
+        "base_coverage_by_state": [
+          0.390625
+        ],
+        "base_coverage_min": 0.390625,
+        "base_perplexity": 42.37118468901548,
+        "base_perplexity_by_state": [
+          42.37118468901548
+        ],
+        "base_perplexity_min": 42.37118468901548,
+        "mse": 0.0009103703751855966,
+        "mse_by_state": [
+          0.0009103703751855966
+        ],
+        "psnr_db": 30.407818833114362,
+        "psnr_db_by_state": [
+          30.407818833114362
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13139709024234694,
+        "reconstruction_output_std": 0.30785263660210255,
+        "residual_coverage": 0.96875,
+        "residual_perplexity": 94.65583308806337
+      }
+    },
+    {
+      "elapsed_seconds": 8.996491184000206,
+      "epoch": 72,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.00258160072757436,
+        "commitment_loss": 0.0005563503891777978,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005563503891777978,
+        "first_stage_error": 0.0020252503378525655,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0033899312991231122,
+        "reconstruction_l1": 0.008001248883170503,
+        "reconstruction_loss": 0.0006690452214783041,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006690452214783041,
+        "residual_norm_loss": 0.001977401736592787,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.390625,
+        "base_coverage_by_state": [
+          0.390625
+        ],
+        "base_coverage_min": 0.390625,
+        "base_perplexity": 42.63700743614591,
+        "base_perplexity_by_state": [
+          42.63700743614591
+        ],
+        "base_perplexity_min": 42.63700743614591,
+        "mse": 0.000909630298614502,
+        "mse_by_state": [
+          0.000909630298614502
+        ],
+        "psnr_db": 30.411350822891666,
+        "psnr_db_by_state": [
+          30.411350822891666
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13099839265784438,
+        "reconstruction_output_std": 0.306479871028215,
+        "residual_coverage": 0.96875,
+        "residual_perplexity": 94.7765758505443
+      }
+    },
+    {
+      "elapsed_seconds": 8.83732509499987,
+      "epoch": 73,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0025755949840645925,
+        "commitment_loss": 0.0005558468950868837,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005558468950868837,
+        "first_stage_error": 0.0020197481004016423,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0033695331489597665,
+        "reconstruction_l1": 0.007908771234503556,
+        "reconstruction_loss": 0.000654778374461283,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.000654778374461283,
+        "residual_norm_loss": 0.001980576664209366,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.390625,
+        "base_coverage_by_state": [
+          0.390625
+        ],
+        "base_coverage_min": 0.390625,
+        "base_perplexity": 42.754933108309274,
+        "base_perplexity_by_state": [
+          42.754933108309274
+        ],
+        "base_perplexity_min": 42.754933108309274,
+        "mse": 0.0009131244659423828,
+        "mse_by_state": [
+          0.0009131244659423828
+        ],
+        "psnr_db": 30.39470020726659,
+        "psnr_db_by_state": [
+          30.39470020726659
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12941824702048788,
+        "reconstruction_output_std": 0.30455844142862026,
+        "residual_coverage": 0.96875,
+        "residual_perplexity": 94.20931175140069
+      }
+    },
+    {
+      "elapsed_seconds": 9.071044289999918,
+      "epoch": 74,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0025735892818927347,
+        "commitment_loss": 0.0005549634377054313,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005549634377054313,
+        "first_stage_error": 0.002018625849083275,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0033554983647348727,
+        "reconstruction_l1": 0.007838325331283508,
+        "reconstruction_loss": 0.0006429693731261748,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006429693731261748,
+        "residual_norm_loss": 0.0019884392103424,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.390625,
+        "base_coverage_by_state": [
+          0.390625
+        ],
+        "base_coverage_min": 0.390625,
+        "base_perplexity": 42.94939500400038,
+        "base_perplexity_by_state": [
+          42.94939500400038
+        ],
+        "base_perplexity_min": 42.94939500400038,
+        "mse": 0.0008808524423716019,
+        "mse_by_state": [
+          0.0008808524423716019
+        ],
+        "psnr_db": 30.55096837139605,
+        "psnr_db_by_state": [
+          30.55096837139605
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13004166434151787,
+        "reconstruction_output_std": 0.30582407370331943,
+        "residual_coverage": 0.96875,
+        "residual_perplexity": 94.29779327153405
+      }
+    },
+    {
+      "elapsed_seconds": 8.987743672000306,
+      "epoch": 75,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0025669334752258855,
+        "commitment_loss": 0.0005520995133491146,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005520995133491146,
+        "first_stage_error": 0.00201483396378076,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0033355959795554665,
+        "reconstruction_l1": 0.007764880188575415,
+        "reconstruction_loss": 0.000630437119572345,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.000630437119572345,
+        "residual_norm_loss": 0.002005041567129997,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.390625,
+        "base_coverage_by_state": [
+          0.390625
+        ],
+        "base_coverage_min": 0.390625,
+        "base_perplexity": 43.0348933366095,
+        "base_perplexity_by_state": [
+          43.0348933366095
+        ],
+        "base_perplexity_min": 43.0348933366095,
+        "mse": 0.0008780034532352369,
+        "mse_by_state": [
+          0.0008780034532352369
+        ],
+        "psnr_db": 30.56503775986769,
+        "psnr_db_by_state": [
+          30.56503775986769
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13080680330237565,
+        "reconstruction_output_std": 0.30692428410801154,
+        "residual_coverage": 0.984375,
+        "residual_perplexity": 95.06271338593507
+      }
+    },
+    {
+      "elapsed_seconds": 8.791289872999641,
+      "epoch": 76,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0025601048092140214,
+        "commitment_loss": 0.0005493541316142323,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005493541316142323,
+        "first_stage_error": 0.0020107506746078066,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0033247833212001997,
+        "reconstruction_l1": 0.00775151008470245,
+        "reconstruction_loss": 0.0006271373702509103,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006271373702509103,
+        "residual_norm_loss": 0.002026101730972807,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.390625,
+        "base_coverage_by_state": [
+          0.390625
+        ],
+        "base_coverage_min": 0.390625,
+        "base_perplexity": 43.041280596728505,
+        "base_perplexity_by_state": [
+          43.041280596728505
+        ],
+        "base_perplexity_min": 43.041280596728505,
+        "mse": 0.0008802826025048081,
+        "mse_by_state": [
+          0.0008802826025048081
+        ],
+        "psnr_db": 30.553778812526883,
+        "psnr_db_by_state": [
+          30.553778812526883
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1310012974330357,
+        "reconstruction_output_std": 0.30685906285950726,
+        "residual_coverage": 0.984375,
+        "residual_perplexity": 95.23393207502353
+      }
+    },
+    {
+      "elapsed_seconds": 8.787502180000047,
+      "epoch": 77,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0025638738782014525,
+        "commitment_loss": 0.0005495059070020705,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005495059070020705,
+        "first_stage_error": 0.002014367982623315,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0033112632776567032,
+        "reconstruction_l1": 0.007665553848285263,
+        "reconstruction_loss": 0.0006098102179255824,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006098102179255824,
+        "residual_norm_loss": 0.002027069891924822,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.390625,
+        "base_coverage_by_state": [
+          0.390625
+        ],
+        "base_coverage_min": 0.390625,
+        "base_perplexity": 43.08559311683551,
+        "base_perplexity_by_state": [
+          43.08559311683551
+        ],
+        "base_perplexity_min": 43.08559311683551,
+        "mse": 0.0008790729269689444,
+        "mse_by_state": [
+          0.0008790729269689444
+        ],
+        "psnr_db": 30.559750948165245,
+        "psnr_db_by_state": [
+          30.559750948165245
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13066593092315051,
+        "reconstruction_output_std": 0.30619537225751925,
+        "residual_coverage": 0.984375,
+        "residual_perplexity": 95.25465811694009
+      }
+    },
+    {
+      "elapsed_seconds": 9.123359381000228,
+      "epoch": 78,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.0025622587516103113,
+        "commitment_loss": 0.0005484833890707101,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005484833890707101,
+        "first_stage_error": 0.0020137753568276345,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0033038574495030757,
+        "reconstruction_l1": 0.007619470040200748,
+        "reconstruction_loss": 0.0006042752120095506,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0006042752120095506,
+        "residual_norm_loss": 0.0020262704396220013,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.390625,
+        "base_coverage_by_state": [
+          0.390625
+        ],
+        "base_coverage_min": 0.390625,
+        "base_perplexity": 43.11976872392872,
+        "base_perplexity_by_state": [
+          43.11976872392872
+        ],
+        "base_perplexity_min": 43.11976872392872,
+        "mse": 0.0008909245958133619,
+        "mse_by_state": [
+          0.0008909245958133619
+        ],
+        "psnr_db": 30.501590513031278,
+        "psnr_db_by_state": [
+          30.501590513031278
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.1313742147640306,
+        "reconstruction_output_std": 0.3076246328830618,
+        "residual_coverage": 0.984375,
+        "residual_perplexity": 95.22177914350208
+      }
+    },
+    {
+      "elapsed_seconds": 8.643300754999927,
+      "epoch": 79,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002559120118374301,
+        "commitment_loss": 0.000546702793059505,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.000546702793059505,
+        "first_stage_error": 0.002012417327490783,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.0032811274362519105,
+        "reconstruction_l1": 0.007506825304024409,
+        "reconstruction_loss": 0.0005851287971942677,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0005851287971942677,
+        "residual_norm_loss": 0.0020282364800729064,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3984375,
+        "base_coverage_by_state": [
+          0.3984375
+        ],
+        "base_coverage_min": 0.3984375,
+        "base_perplexity": 43.11958024796142,
+        "base_perplexity_by_state": [
+          43.11958024796142
+        ],
+        "base_perplexity_min": 43.11958024796142,
+        "mse": 0.0009003540895423111,
+        "mse_by_state": [
+          0.0009003540895423111
+        ],
+        "psnr_db": 30.45586658459144,
+        "psnr_db_by_state": [
+          30.45586658459144
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.13209217155612246,
+        "reconstruction_output_std": 0.3075214413381167,
+        "residual_coverage": 0.9921875,
+        "residual_perplexity": 96.73498631484038
+      }
+    },
+    {
+      "elapsed_seconds": 8.873374434000198,
+      "epoch": 80,
+      "selection": {
+        "binding_feasible": false,
+        "binding_ready_epoch": null,
+        "collapse_detected": false,
+        "residual_only_target_met": null,
+        "state_spread_target_met": true,
+        "wrong_target_met": null
+      },
+      "train": {
+        "binding_gradient_clip_active": 0.0,
+        "codebook_loss": 0.002548994619408013,
+        "commitment_loss": 0.0005436478999756695,
+        "decoder_gradient_norm_pre_clip": 0.0,
+        "final_quantization_error": 0.0005436478999756695,
+        "first_stage_error": 0.0020053467308562773,
+        "gradient_norm_pre_clip": 0.0,
+        "loss": 0.003270174299418996,
+        "reconstruction_l1": 0.0075199938157277406,
+        "reconstruction_loss": 0.0005850651843808417,
+        "reconstruction_lpips": 0.0,
+        "reconstruction_mse": 0.0005850651843808417,
+        "residual_norm_loss": 0.00202527077146153,
+        "residual_only_hinge": 0.0,
+        "residual_only_mse": 0.0,
+        "residual_only_weight": 0.0,
+        "wrong_state_hinge": 0.0,
+        "wrong_state_mse": 0.0,
+        "wrong_state_weight": 0.0
+      },
+      "validation": {
+        "base_coverage": 0.3984375,
+        "base_coverage_by_state": [
+          0.3984375
+        ],
+        "base_coverage_min": 0.3984375,
+        "base_perplexity": 43.708741724847826,
+        "base_perplexity_by_state": [
+          43.708741724847826
+        ],
+        "base_perplexity_min": 43.708741724847826,
+        "mse": 0.0008743025390469298,
+        "mse_by_state": [
+          0.0008743025390469298
+        ],
+        "psnr_db": 30.58338260382659,
+        "psnr_db_by_state": [
+          30.58338260382659
+        ],
+        "psnr_db_state_spread": 0.0,
+        "reconstruction_output_mean": 0.12973041967275192,
+        "reconstruction_output_std": 0.30586353471614947,
+        "residual_coverage": 1.0,
+        "residual_perplexity": 97.51111842905699
+      }
+    }
+  ]
+}

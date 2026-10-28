@@ -1,0 +1,7 @@
+# Preserve exact evidence and manifest bytes on clone/archive on every OS.
+# Code authored in this release uses LF; do not normalize copied evidence.
+* -text
+*.npz binary
+*.xlsx binary
+*.png binary
+*.pdf binary

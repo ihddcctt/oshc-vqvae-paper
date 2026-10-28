@@ -1,0 +1,60 @@
+{
+  "_config_path": "configs/mnist_stagec_d64_k128_software.yaml",
+  "dataset": {
+    "download": false,
+    "name": "mnist",
+    "native_resolution": [
+      28,
+      28
+    ],
+    "root": "${TRAIN_DATA_ROOT}/MNIST",
+    "validation_size": 5000
+  },
+  "experiment": {
+    "name": "mnist_stagec_d64_k128_software",
+    "seed": 20260907
+  },
+  "model": {
+    "base_codebook_size": 128,
+    "decoder_blocks_by_stage": [
+      3,
+      2,
+      2
+    ],
+    "decoder_blocks_per_stage": 1,
+    "decoder_zero_init_extra_residual_blocks": true,
+    "imagenet_weights": "IMAGENET1K_V1",
+    "latent_dim": 64,
+    "loss_reference_dim": 64,
+    "normalize_latents": true,
+    "pretrained_encoder": true,
+    "quantizer_type": "trainable_residual",
+    "residual_codebook_size": 128
+  },
+  "training": {
+    "amp": true,
+    "batch_size": 256,
+    "checkpoint_selection": "correct_validation_mse",
+    "codebook_weight": 1.0,
+    "commitment_weight": 0.25,
+    "distributed_batch_size_mode": "per_rank",
+    "effective_global_batch_size": 256,
+    "encoder_learning_rate_scale": 0.1,
+    "epochs": 80,
+    "learning_rate": 0.0003,
+    "num_workers": 8,
+    "perceptual_weight": 0.0,
+    "reconstruction_loss": "mse",
+    "residual_norm_weight": 0.0001,
+    "residual_only_weight": 0.0,
+    "state_assignment": "single_state",
+    "weight_decay": 0.0001,
+    "wrong_state_weight": 0.0
+  },
+  "upgrade": {
+    "changed_variable": "dataset_only_with_native_factor4_geometry",
+    "comparison_scope": "current_architecture_retrained_without_cross_dataset_weight_transfer",
+    "source_config": "configs/stl10_stagec_d64_k128_software.yaml",
+    "stage": "MNIST-Stage-C-comparison"
+  }
+}

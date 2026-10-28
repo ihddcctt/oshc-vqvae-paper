@@ -1,0 +1,3902 @@
+[
+  {
+    "sample_id": 237,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 237,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 237,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 237,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 237,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 237,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 237,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 237,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 237,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 237,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 436,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 436,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 436,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 436,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 436,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 436,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 436,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 436,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 436,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 436,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 711,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 711,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 711,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 711,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 711,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 711,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 711,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 711,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 711,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 711,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1007,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1007,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1007,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1007,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1007,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1007,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1007,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1007,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1007,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1007,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1501,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1511,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1501,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1511,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1501,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1511,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1501,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1511,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1501,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1511,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1501,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1511,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1501,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1511,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1501,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1511,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1501,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1511,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1501,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1511,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1755,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1755,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1755,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1755,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1755,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1755,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1755,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1755,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1755,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 1755,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2111,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2171,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2111,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2171,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2111,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2171,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2111,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2171,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2111,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2171,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2111,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2171,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2111,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2171,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2111,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2171,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2111,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2171,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2111,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2171,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2278,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2278,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2278,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2278,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2278,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2278,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2278,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2278,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2278,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2278,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2730,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2730,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2730,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2730,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2730,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2730,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2730,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2730,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2730,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 2730,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3375,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3375,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3375,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3375,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3375,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3375,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3375,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3375,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3375,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3375,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3564,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3564,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3564,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3564,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3564,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3564,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3564,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3564,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3564,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 3564,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4042,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4042,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4042,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4042,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4042,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4042,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4042,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4042,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4042,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4042,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4263,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4327,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4263,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4327,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4263,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4327,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4263,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4327,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4263,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4327,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4263,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4327,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4263,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4327,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4263,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4327,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4263,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4327,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4263,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4327,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4638,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4638,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4638,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4638,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4638,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4638,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4638,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4638,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4638,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 4638,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5467,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5467,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5467,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5467,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5467,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5467,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5467,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5467,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5467,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5467,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5559,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5580,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5559,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5580,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5559,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5580,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5559,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5580,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5559,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5580,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5559,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5580,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5559,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5580,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5559,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5580,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5559,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5580,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5559,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5580,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5974,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5974,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5974,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5974,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5974,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5974,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5974,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5974,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5974,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 5974,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6676,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6676,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6676,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6676,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6676,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6676,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6676,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6676,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6676,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6676,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6944,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6944,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6944,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6944,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6944,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6944,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6944,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6944,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6944,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 6944,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 7479,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 7479,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 7479,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 7479,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 7479,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 7479,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 7479,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 7479,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 7479,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 7479,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 8580,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 8580,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 8580,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 8580,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 8580,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 8580,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 8580,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 8580,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 8580,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 8580,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9180,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9180,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9180,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9180,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9180,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9180,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9180,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9180,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9180,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9180,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9216,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9273,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9216,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9273,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9216,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9273,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9216,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9273,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9216,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9273,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9216,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9273,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9216,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9273,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9216,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9273,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9216,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9273,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9216,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9273,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9682,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9682,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9682,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9682,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9682,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9682,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9682,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9682,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9682,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9682,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9798,
+    "sender_state": 0,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9798,
+    "sender_state": 1,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9798,
+    "sender_state": 2,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9798,
+    "sender_state": 3,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9798,
+    "sender_state": 4,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9798,
+    "sender_state": 5,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9798,
+    "sender_state": 6,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9798,
+    "sender_state": 7,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9798,
+    "sender_state": 8,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  },
+  {
+    "sample_id": 9798,
+    "sender_state": 9,
+    "results": {
+      "wrong_key": "AuthenticationError",
+      "ciphertext": "AuthenticationError",
+      "tag": "AuthenticationError",
+      "authenticated_state": "AuthenticationError",
+      "nonce": "AuthenticationError",
+      "truncated": "ProtocolError"
+    },
+    "decoder_invocations": 0
+  }
+]

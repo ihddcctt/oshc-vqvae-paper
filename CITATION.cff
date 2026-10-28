@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this repository version alongside the associated manuscript. No manuscript DOI is assigned here."
+title: "OSHC-VQ-VAE: publication code and numerical source data"
+authors:
+  - name: "OSHC-VQ-VAE contributors"
+type: software
+version: 1.0.0
+date-released: 2026-10-28
+repository-code: "https://github.com/ihddcctt/oshc-vqvae-paper"
+url: "https://github.com/ihddcctt/oshc-vqvae-paper"
+abstract: "Final measured-optical-record-seeded hybrid-codebook VQ-VAE experiments and K=128 authenticated index-transport validation. Task weights are not included."
